@@ -163,12 +163,12 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: 'Optics Valley Of China. Huawei Cup' The 19th China Post-Graduate Mathematical Contest in Modeling
+  - title: (Optics Valley Of China. Huawei Cup) The 19th China Post-Graduate Mathematical Contest in Modeling
     url: https://www.huawei.com/en/
+    certificate_url: uploads/Huawei.pdf
     date: '2023-01-01'
     awarder: Huawei
     icon: custom/huawei
-    certificate_url: uploads/Huawei.pdf
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
