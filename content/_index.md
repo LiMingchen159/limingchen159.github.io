@@ -40,7 +40,7 @@ sections:
 
        Currently, I am dedicated to developing "BuildingGPT," an advanced tool aimed at revolutionizing how we approach building performance and intelligence. My work integrates qualitative and quantitative methods to explore the role of science and technology in driving economic growth.
 
-       I’m particularly interested in collaborating with scholars in smart buildings, smart cities, and computer science. Please reach out via email to connect 😃    design:
+       I’m particularly interested in collaborating with scholars in smart buildings, smart cities, and computer science. Please reach out via email/wechat to connect 😃
       
       columns: '1'
   - block: collection
