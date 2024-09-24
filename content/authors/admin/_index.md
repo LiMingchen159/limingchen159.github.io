@@ -127,15 +127,15 @@ skills:
       - name: Building daylight simulation
         description: ''
         percent: 80
-        icon: bug-solid.svg
+        icon: custom/bug-solid
       - name: Building energy simulation
         description: ''
         percent: 80
-        icon: forumbee-brands-solid
+        icon: custom/forumbee-brands-solid
       - name: Parametric Modeling
         description: ''
         percent: 80
-        icon: mendeley-brands-solid
+        icon: custom/mendeley-brands-solid
 
   - name: Hobbies
     color: '#eeac02'
