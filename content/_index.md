@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: personal-accessories-coffee-cup-earphone-eyeglasses-keyboard-black-background.jpg
+          filename: v884-bird-15.jpg
           filters:
             brightness: 1.0
           size: cover
