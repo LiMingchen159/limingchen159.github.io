@@ -80,7 +80,7 @@ education:
 
 work:
   - position: Python development engineer
-    company_name: Beijing Glory PKPM Technology Co.,Ltd. (PKPM)
+    company_name: Beijing Glory PKPM Technology Co.,Ltd.
     company_url: ''
     company_logo: ''
     date_start: 2020-10-01
@@ -92,7 +92,7 @@ work:
       - Followed multiple tasks to complete complex parametric modeling work;
       - Held the position of answering teacher (technical support) in several competitions;
   - position: BIM Designer
-    company_name: Tianjin University Research Institute of Architectural Design and Urban Planning Co.,Ltd. (AATU)
+    company_name: Tianjin University Research Institute of Architectural Design and Urban Planning Co.,Ltd.
     company_url: ''
     company_logo: ''
     date_start: 2021-06-01

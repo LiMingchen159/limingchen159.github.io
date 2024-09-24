@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/CV-EN-Mingchen Li.pdf
     design:
       css_class: dark
       background:
@@ -36,12 +36,12 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+       I’m a PHD Student in the Hong Kong University of Science and Technology, specializing in large language models, semantic models, and building performance simulation.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
-    design:
+       Currently, I am dedicated to developing "BuildingGPT," an advanced tool aimed at revolutionizing how we approach building performance and intelligence. My work integrates qualitative and quantitative methods to explore the role of science and technology in driving economic growth.
+
+       I’m particularly interested in collaborating with scholars in smart buildings, smart cities, and computer science. Please reach out via email to connect 😃    design:
+      
       columns: '1'
   - block: collection
     id: papers
