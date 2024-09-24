@@ -22,7 +22,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Journal of Building Performance Simulation"
-publication_short: "JBPS"
+publication_short: "Journal of Building Performance Simulation"
 
 abstract: This study is the first to conduct a global sensitivity analysis to identify the crucial variables that have an impact on the energy consumption of substations. The peak cooling and heating energy consumption, as well as the annual cooling and heating energy consumption of a substation in Shandong, are all simulated basing the Monte Carlo method. The simulation outputs are discussed by uncertainty analysis to obtain more accurate energy consumption thresholds. Subsequently, the treed Gaussian process and the standardized rank regression coefficient are used to perform a global sensitivity analysis of the simulation outputs. The results of the two global sensitivity analyses are practically the same, demonstrating that robustness can be ensured by simultaneously using two methods based on different theories. In addition, this study provides an efficient method for the energy-saving retrofitting of the existing substation and the energy-saving design of green substations in the future.
   
