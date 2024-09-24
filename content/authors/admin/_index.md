@@ -83,8 +83,8 @@ work:
     company_name: Beijing Glory PKPM Technology Co.,Ltd. (PKPM)
     company_url: ''
     company_logo: ''
-    date_start: 2020-10
-    date_end: 2022-09
+    date_start: 2020-10-01
+    date_end: 2022-09-30
     summary: |2-
       Responsibilities include:
       - Independent development of "pyp3d_tunnel" Python library for the project;
@@ -95,8 +95,8 @@ work:
     company_name: Tianjin University Research Institute of Architectural Design and Urban Planning Co.,Ltd. (AATU)
     company_url: ''
     company_logo: ''
-    date_start: 2021-06
-    date_end: 2021-09
+    date_start: 2021-06-01
+    date_end: 2021-09-30
     summary: |
       Responsibilities include:
       - Led the team to follow the project to complete the creation of architecture, structure, and comprehensive pipeline model in the BIM model;

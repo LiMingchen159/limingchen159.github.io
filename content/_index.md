@@ -30,6 +30,29 @@ sections:
           size: cover
           position: center
           parallax: false
+          
+  - block: features
+    content:
+      title: Skills
+      items:
+        - name: python
+          icon: python
+          icon_pack: fab
+        - name: R
+          icon: r-project
+          icon_pack: fab
+        - name: Latex
+          icon: code
+          icon_pack: fas
+        - name: Building daylight simulation
+          icon: bug
+          icon_pack: fas
+        - name: Building energy simulation
+          icon: forumbee
+          icon_pack: fab
+        - name: Parametric Modeling
+          icon: mendeley
+          icon_pack: fab
   
   - block: markdown
     content:
