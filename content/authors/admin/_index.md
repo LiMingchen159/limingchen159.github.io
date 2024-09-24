@@ -41,9 +41,6 @@ profiles:
     url: https://scholar.google.com/citations?hl=zh-TW&user=xpVXHpcAAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-8873-0766
-  - icon: weixin
-    icon_pack: fab
-    url: uploads/Wechat Code.jpg
 
 interests:
   - Artificial Intelligence
