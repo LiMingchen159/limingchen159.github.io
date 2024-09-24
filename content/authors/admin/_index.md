@@ -127,7 +127,7 @@ skills:
       - name: Building daylight simulation
         description: ''
         percent: 80
-        icon: bug-solid
+        icon: bug-solid.svg
       - name: Building energy simulation
         description: ''
         percent: 80
