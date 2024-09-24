@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Mingchen Li 李銘晨
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Mitchell Li
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Mingchen
+last_name: Li
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 💡
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,31 +20,30 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: PHD Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
-
+  - name: Hong Kong University of Science and Technology
+    url: https://hkust.edu.hk/
+    
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mingchen.li@connect.ust.hk'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/LiMingchen159
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/mingchen-li-81b79028a/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?hl=zh-TW&user=xpVXHpcAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0002-8873-0766
+  - icon: weixin
+    icon_pack: fab
+    url: uploads/Wechat Code.jpg
 
 interests:
   - Artificial Intelligence
@@ -183,4 +182,5 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Mingchen Li is a PHD student in Civil Engineering at Hong Kong University of Science and Technology. He research interests include Large Language Model, Semantic Model, Building Performance Optimization and Machine Learning. He is now a student of **[Prof. Wang](https://walterzwang.github.io/)** and works on semantic modeling of air conditioning systems.
+{style="text-align: justify;"}
