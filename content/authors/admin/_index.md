@@ -107,34 +107,11 @@ work:
 #skills:
   - name: Technical Skills
     items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: devicon/python
-      - name: R
-        description: ''
-        percent: 70
-        icon: devicon/r
-      - name: Data Science
-        description: ''
-        percent: 80
-        icon: chart-bar
       - name: SparQL
         description: ''
         percent: 90
         icon: circle-stack
-      - name: Building daylight simulation
-        description: ''
-        percent: 80
-        icon: bug-solid
-      - name: Building energy simulation
-        description: ''
-        percent: 80
-        icon: forumbee-brands-solid
-      - name: Parametric Modeling
-        description: ''
-        percent: 80
-        icon: mendeley-brands-solid
+
 
   - name: Hobbies
     color: '#eeac02'
