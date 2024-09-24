@@ -30,7 +30,7 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: envelope
+  - icon: hero/envelope
     url: 'mingchen.li@connect.ust.hk'
     label: E-mail Me
   - icon: brands/github
@@ -41,8 +41,7 @@ profiles:
     url: https://scholar.google.com/citations?hl=zh-TW&user=xpVXHpcAAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-8873-0766
-  - icon: weixin
-    icon_pack: fab
+  - icon: brands/weixin
     link: uploads/Wechat Code.jpg
 
 interests:
