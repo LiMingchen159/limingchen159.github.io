@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Mingchen Li 李銘晨
+title: Mingchen Li
 
 # Name pronunciation (optional)
-name_pronunciation: Mitchell Li
+name_pronunciation: 李铭晨
 
 # Full name (for SEO)
 first_name: Mingchen
@@ -45,107 +45,104 @@ profiles:
     url: uploads/Wechat Code.jpg
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Large Language Model
+  - Semantic Model
+  - Building Performance Optimization
+  - Machine Learning
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD | Civil Engineering
+    institution: Hong Kong University of Science and Technology
+    date_start: 2023-09-01
+    date_end: ''
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      [BuildingGPT](https://buildinggpt.vip.cpolar.cn/), a Large Language Model for Building metadata.
+   # button:
+    #  text: 'Read Thesis'
+    #  url: 'https://example.com'
+  - area: Master | Smart Building
+    institution: Tianjin University
+    date_start: 2020-09-01
+    date_end: 2023-06-30
     summary: |
-      GPA: 3.8/4.0
+      GPA: 86/100 (Comprehensive ranking 1st in 2022)
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Machine Learning Algorithms and Applications (96/100)
+      - Introduction to Intelligent Buildings (92/100)
+      - Parametric modeling in design (advanced) (92/100)
+  - area: Bachelor | Urban underground space engineering
+    institution: China University of Mining & Technology,Beijing
+    date_start: 2016-09-01
+    date_end: 2020-06-30
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      GPA: 84/100 (Comprehensive ranking within the top 5)
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Python development engineer
+    company_name: Beijing Glory PKPM Technology Co.,Ltd. (PKPM)
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2020-10
+    date_end: 2022-09
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Independent development of "pyp3d_tunnel" Python library for the project;
+      - The secondary development of interactable tools based on Bimbase and PYP3D libraries;
+      - Followed multiple tasks to complete complex parametric modeling work;
+      - Held the position of answering teacher (technical support) in several competitions;
+  - position: BIM Designer
+    company_name: Tianjin University Research Institute of Architectural Design and Urban Planning Co.,Ltd. (AATU)
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2021-06
+    date_end: 2021-09
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Led the team to follow the project to complete the creation of architecture, structure, and comprehensive pipeline model in the BIM model;
+      - Won the first prize in the domestic software group of the 2021 BIM Technology Application Innovation Labor Competition based on the project.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+#skills:
+#  - name: Technical Skills
+#    items:
+#      - name: Python
+#        description: ''
+#        percent: 80
+#        icon: code-bracket
+#      - name: Data Science
+#        description: ''
+#        percent: 80
+#        icon: chart-bar
+#      - name: SparQL
+#        description: ''
+#        percent: 90
+#        icon: circle-stack
+#  - name: Hobbies
+#    color: '#eeac02'
+#    color_border: '#f0bf23'
+#    items:
+#      - name: Hiking
+#        description: ''
+#        percent: 60
+#        icon: person-simple-walk
+#      - name: Cats
+#        description: ''
+#        percent: 100
+#        icon: cat
+#      - name: Photography
+#        description: ''
+#        percent: 80
+#        icon: camera
 
 languages:
   - name: English
-    percent: 100
-  - name: Chinese
     percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Chinese
+    percent: 100
+#  - name: Portuguese
+#    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
