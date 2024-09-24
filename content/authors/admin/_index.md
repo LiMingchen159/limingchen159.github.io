@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: hero/envelope
-    url: 'mingchen.li@connect.ust.hk'
+    url: 'mailto:mingchen.li@connect.ust.hk'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/LiMingchen159
