@@ -42,7 +42,7 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-8873-0766
   - icon: brands/weixin
-    filename: Wechat Code.jpg
+    filename: uploads/Wechat Code.jpg
 
 interests:
   - Artificial Intelligence
