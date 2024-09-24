@@ -165,22 +165,17 @@ languages:
 awards:
   - title: (Optics Valley Of China. Huawei Cup) The 19th China Post-Graduate Mathematical Contest in Modeling
     url: https://www.huawei.com/en/
-    certificate_url: uploads/Huawei.pdf
     date: '2023-01-01'
     awarder: Huawei
-    icon: custom/huawei_Standard_logo
   - title: The best work of the first domestic BIM application 100 universities invitations (Leader)
     url: http://www.wuhancityofdesign.com/en/
     certificate_url: uploads/Catifications-Mingchen Li_页面_14.jpg
     date: '2023-01-01'
     awarder: WUHAN DESIGN
-    icon: custom/wuhan_design
   - title: 2021 BIM Technology Application Innovation Labor Competition Domestic Software Group (Leader)
     url: https://www.pkpm.cn/
-    certificate_url: uploads/Catifications-Mingchen Li_页面_12.jpg
     date: '2022-01-21'
     awarder: PKPM
-    icon: PKPM
 ---
 
 ## About Me
