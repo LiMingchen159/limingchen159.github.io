@@ -1,16 +1,16 @@
 ---
-title: "Based on ANN and many-objective optimization to improve the performance and economy of village houses in Chinese cold regions"
+title: "Uncertainty quantification and sensitivity analysis of energy consumption in substation buildings at the planning stage"
 authors:
 - Juanli Guo
-- Jian Zhou
+- Zhoupeng Wang
 - admin
-- and Siao Lu
+- and Yongyun Jin
 author_notes:
 - ""
 - ""
 - "Corresponding author"
 date: "2023-04-05T21:27:18.946Z"
-doi: "https://doi.org/10.1080/19401493.2023.2183259"
+doi: "https://doi.org/10.1080/19401493.2022.2141881"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-04-05T21:27:18.946Z"
@@ -24,7 +24,7 @@ publication_types: ["article-journal"]
 publication: "Journal of Building Performance Simulation"
 publication_short: "JBPS"
 
-abstract: The number of studies considering building performance optimization   (BPO) in the building design phase is steadily growing, but many of the   existing studies do not consider the applicability of many-objective   optimization algorithms when increasing the objective dimensions. This article   first compares the NSGA-II, IDBEA, MSOPS-II, and NSGA-III algorithms. Then,   the algorithm most suitable for many-objective optimization is combined with   Artificial natural network(ANN) and TOPSIS-AHP to complete the optimization of   four dimensions of building energy consumption (EC), useful daylight   illuminance (UDI), comfort time ratio (CTR) and energy-saving envelope cost   (ESEC) for village houses in cold regions of China. The results show that the   NSGA-III algorithm performs well in terms of convergence speed, convergence,   diversity, and uniformity when solving many-objective problems compared to the   other three algorithms. Finally, four optimization strategies were selected   using the TOPSIS-AHP method.
+abstract: This study is the first to conduct a global sensitivity analysis to identify the crucial variables that have an impact on the energy consumption of substations. The peak cooling and heating energy consumption, as well as the annual cooling and heating energy consumption of a substation in Shandong, are all simulated basing the Monte Carlo method. The simulation outputs are discussed by uncertainty analysis to obtain more accurate energy consumption thresholds. Subsequently, the treed Gaussian process and the standardized rank regression coefficient are used to perform a global sensitivity analysis of the simulation outputs. The results of the two global sensitivity analyses are practically the same, demonstrating that robustness can be ensured by simultaneously using two methods based on different theories. In addition, this study provides an efficient method for the energy-saving retrofitting of the existing substation and the energy-saving design of green substations in the future.
   
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -36,7 +36,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://www.tandfonline.com/doi/abs/10.1080/19401493.2023.2183259'
+url_pdf: 'https://www.tandfonline.com/doi/abs/10.1080/19401493.2022.2141881'
 url_code: ''
 url_dataset: ''
 url_poster: ''
