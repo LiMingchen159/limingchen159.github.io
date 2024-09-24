@@ -2,12 +2,14 @@
 title: Developing an Automatic Integration Approach to Generate Brick Model from Imperfect
   Building Information Modelling
 authors:
-- Mingchen Li
+- admin
 - Zhe Wang
 - Gabe Fierro
 - Chi Hou Cecil Man
 - Pok Man Patrick So
 - Kin Fung Calvin Leung
+author_notes:
+- "First author"
 date: '2024-01-01'
 publishDate: '2024-09-24T10:13:02.847551Z'
 publication_types:
@@ -42,4 +44,6 @@ tags:
 - Data integration
 - Knowledge graph
 - Ontology
+featured: true
+url_pdf: 'https://www.sciencedirect.com/science/article/abs/pii/S2352710224022654'
 ---
