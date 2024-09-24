@@ -3,7 +3,7 @@
 title: Mingchen Li
 
 # Name pronunciation (optional)
-name_pronunciation: 李铭晨
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Mingchen
