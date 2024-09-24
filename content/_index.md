@@ -36,11 +36,13 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-       I’m a PHD Student in the Hong Kong University of Science and Technology, specializing in large language models, semantic models, and building performance simulation.
-
-       Currently, I am dedicated to developing "BuildingGPT," an advanced tool aimed at revolutionizing how we approach building performance and intelligence. My work integrates qualitative and quantitative methods to explore the role of science and technology in driving economic growth.
-
-       I’m particularly interested in collaborating with scholars in smart buildings, smart cities, and computer science. Please reach out via email/wechat to connect 😃
+          <div class="justify-text">
+          I’m a PHD Student in the Hong Kong University of Science and Technology, specializing in large language models, semantic models, and building performance simulation.
+    
+          Currently, I am dedicated to developing "BuildingGPT," an advanced tool aimed at revolutionizing how we approach building performance and intelligence. My work integrates qualitative and quantitative methods to explore the role of science and technology in driving economic growth.
+    
+          I’m particularly interested in collaborating with scholars in smart buildings, smart cities, and computer science. Please reach out via email/wechat to connect 😃
+          </div>
       
       columns: '1'
   - block: collection
