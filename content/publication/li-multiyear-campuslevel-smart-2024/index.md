@@ -1,17 +1,23 @@
 ---
 title: A Multi-Year Campus-Level Smart Meter Database
 authors:
-- Mingchen Li
+- admin
 - Zhe Wang
 - Yao Qu
 - Kin Ming Chui
 - Marcus Leung-Shea
-date: '2024-11-26'
+author_notes:
+- "First author"
+date: "2024-11-26"
+doi: "https://doi.org/10.1038/s41597-024-04106-1"
+
+
 publishDate: '2024-12-26T03:24:48.046561Z'
 publication_types:
 - article-journal
 publication: '*Nature Publishing Group*'
-doi: 10.1038/s41597-024-04106-1
+featured: true
+
 abstract: With the growing need for precise campus electricity management, understanding
   load patterns is crucial for improving energy efficiency and optimizing energy use.
   However, detailed electricity load data for campus buildings and their internal
