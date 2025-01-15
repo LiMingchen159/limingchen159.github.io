@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/CV-EN-Mingchen Li.pdf
+        url: uploads/MingchenLI_CV_EN.pdf
       button2:
         text: See BuildingGPT
         url: #buildingGPT
