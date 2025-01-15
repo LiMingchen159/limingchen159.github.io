@@ -48,8 +48,9 @@ sections:
 
   - block: markdown
     content:
-      title: " BuildingGPT"
-      text: {{< youtube CdS7prTj5nw >}}
+      title: '📹 Featured Video'
+      subtitle: ''
+      text: temp
       
       columns: '2'
   - block: collection
