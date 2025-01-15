@@ -50,8 +50,8 @@ sections:
     content:
       title: 📹 Featured Video
       subtitle: ''
-      text: |-
-            {{< youtube CdS7prTj5nw >}}
+      text: |- 
+                {{< youtube CdS7prTj5nw >}}
 
       
       columns: 1
