@@ -20,7 +20,7 @@ sections:
         url: uploads/MingchenLI_CV_EN.pdf
       button2:
         text: See BuildingGPT
-        url: #buildingGPT
+        url: /#buildinggpt
     design:
       css_class: dark
       background:
