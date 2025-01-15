@@ -5,16 +5,18 @@ date: 2024-11-24
 type: docs
 math: false
 tags:
-  - JavaScript
+  - BuildingGPT
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
 
-# Video Demonstration
+## Video Demonstration
 
 {{< youtube "TtXVGVKuW8A" >}}
 
-# About BuildingGPT
+
+
+## About BuildingGPT
 BuildingGPT is a cutting-edge solution designed to bridge the gap between building data and natural language processing. Leveraging large language models (LLMs) and semantic data integration techniques, it enables intuitive querying and advanced analysis of building performance data.
 
 ## Key Features and Updates: 
