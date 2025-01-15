@@ -43,6 +43,8 @@ profiles:
     url: https://orcid.org/0000-0002-8873-0766
   - icon: brands/weixin
     url: uploads/Wechat Code.jpg
+  - icon: academicons/cv
+    url: uploads/MingchenLi_CV_EN.pdf
 
 interests:
   - Large Language Model
