@@ -113,7 +113,7 @@ skills:
       - name: Python
         description: ''
         percent: 80
-        icon: custom/python-brands-solid
+        icon: custom/BuildingGPT-V0.1.1-brands-solid
       - name: R
         description: ''
         percent: 70
