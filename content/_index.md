@@ -49,7 +49,7 @@ sections:
   - block: markdown
     content:
       title: " BuildingGPT"
-      text: {{< video src="https://youtu.be/CdS7prTj5nw" controls="yes" >}}
+      text: {{< youtube CdS7prTj5nw >}}
       
       columns: '2'
   - block: collection
