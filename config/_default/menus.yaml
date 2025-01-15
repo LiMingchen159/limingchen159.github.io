@@ -21,7 +21,7 @@ main:
     weight: 20
   - name: BuildingGPT
     url: buildinggpt/
-    weight: 20
+    weight: 25
 #  - name: Projects
 #    url: projects/
 #    weight: 30
