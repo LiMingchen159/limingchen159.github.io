@@ -17,8 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: See BuildingGPT
-        url: /#buildinggp
-        icon: hero/chat-bubble-bottom-center-text
+        url: /#buildinggpt
     design:
       css_class: dark
       background:
