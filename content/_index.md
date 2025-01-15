@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: See BuildingGPT
-        url: /#buildinggpt
+        url: /#buildinggp
     design:
       css_class: dark
       background:
