@@ -50,7 +50,7 @@ sections:
     content:
       title: '📹 Featured Video'
       subtitle: ''
-      text: temp
+      text: temp1
       
       columns: '2'
   - block: collection
