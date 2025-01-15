@@ -18,6 +18,7 @@ sections:
       button:
         text: See BuildingGPT
         url: /#buildinggp
+        icon: hero/chat-bubble-bottom-center-text
     design:
       css_class: dark
       background:
