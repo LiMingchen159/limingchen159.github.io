@@ -15,7 +15,7 @@ doi: "https://doi.org/10.1038/s41597-024-04106-1"
 publishDate: '2024-12-26T03:24:48.046561Z'
 publication_types:
 - article-journal
-publication: '*Nature Publishing Group*'
+publication: '*Nature Scientific Data*'
 featured: true
 
 abstract: With the growing need for precise campus electricity management, understanding
