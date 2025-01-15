@@ -18,6 +18,9 @@ sections:
       button:
         text: Download CV
         url: uploads/CV-EN-Mingchen Li.pdf
+      button2:
+        text: See BuildingGPT
+        url: #buildingGPT
     design:
       css_class: dark
       background:
@@ -45,13 +48,6 @@ sections:
       
       
       columns: '1'
-
-  - block: markdown
-    content:
-      title: 📹 Featured Video
-      subtitle: ''
-      text: ""
-      columns: 1
       
   - block: collection
     id: papers
@@ -117,4 +113,3 @@ sections:
 
 ---
 
-{{< youtube CdS7prTj5nw >}}
