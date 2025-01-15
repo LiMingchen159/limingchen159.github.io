@@ -51,13 +51,7 @@ sections:
       title: 📹 Featured Video
       subtitle: ''
       text: |-
-            ```markmap {height="200px"}
-            - Hugo Modules
-              - blox-tailwind
-              - blox-plugins-netlify
-              - blox-plugins-netlify-cms
-              - blox-plugins-reveal
-            ```
+            {{< youtube CdS7prTj5nw >}}
 
       
       columns: 1
