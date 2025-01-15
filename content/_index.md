@@ -50,7 +50,8 @@ sections:
     content:
       title: 📹 Featured Video
       subtitle: ''
-      text: ```markmap {height="200px"}
+      text: |-
+            ```markmap {height="200px"}
             - Hugo Modules
               - blox-tailwind
               - blox-plugins-netlify
