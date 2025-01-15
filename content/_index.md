@@ -50,7 +50,9 @@ sections:
     content:
       title: '📹 Featured Video'
       subtitle: ''
-      text: temp1
+      text: {{< spoiler text="Click to view the spoiler" >}}
+              You found me!
+            {{< /spoiler >}}
       
       columns: '2'
   - block: collection
