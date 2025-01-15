@@ -45,6 +45,13 @@ sections:
       
       
       columns: '1'
+
+  - block: markdown
+    content:
+      title: " BuildingGPT"
+      text: {{< video src="https://youtu.be/CdS7prTj5nw" controls="yes" >}}
+      
+      columns: '2'
   - block: collection
     id: papers
     content:
