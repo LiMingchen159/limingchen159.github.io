@@ -4,6 +4,9 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
+  - name: BuildingGPT
+    url: buildinggpt/
+    weight: 25
   - name: Bio
     url: /
     weight: 10
@@ -19,9 +22,6 @@ main:
   - name: Experience
     url: experience/
     weight: 20
-  - name: BuildingGPT
-    url: buildinggpt/
-    weight: 25
 #  - name: Projects
 #    url: projects/
 #    weight: 30
