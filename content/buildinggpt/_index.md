@@ -11,12 +11,12 @@ cascade:
 
 sections:
   - block: collection
-    id: teaching
+    id: buildinggpt
     content:
-      title: Teaching
+      title: BuildingGPT
       filters:
         folders:
-          - teaching
+          - buildinggpt
     design:
       view: article-grid
       columns: 2

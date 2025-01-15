@@ -12,7 +12,7 @@ image:
 
 # Video Demonstration
 
-{{< youtube "CdS7prTj5nw" >}}
+{{< youtube "TtXVGVKuW8A" >}}
 
 # About BuildingGPT
 BuildingGPT is a cutting-edge solution designed to bridge the gap between building data and natural language processing. Leveraging large language models (LLMs) and semantic data integration techniques, it enables intuitive querying and advanced analysis of building performance data.
