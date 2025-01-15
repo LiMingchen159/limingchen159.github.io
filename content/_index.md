@@ -33,8 +33,8 @@ sections:
   
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: 📚 My Research
+      subtitle: 
       text: |-
        I’m a PHD Student in the Hong Kong University of Science and Technology, specializing in large language models, semantic models, and building performance simulation.
 
@@ -48,13 +48,13 @@ sections:
 
   - block: markdown
     content:
-      title: '📹 Featured Video'
+      title: 📹 Featured Video
       subtitle: ''
       text: {{< spoiler text="Click to view the spoiler" >}}
               You found me!
             {{< /spoiler >}}
       
-      columns: '2'
+      columns: 1
   - block: collection
     id: papers
     content:
