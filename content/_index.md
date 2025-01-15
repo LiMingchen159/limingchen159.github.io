@@ -50,10 +50,9 @@ sections:
     content:
       title: 📹 Featured Video
       subtitle: ''
-      text: "{{< youtube CdS7prTj5nw >}}"
-
-      
+      text: ""
       columns: 1
+      
   - block: collection
     id: papers
     content:
@@ -117,3 +116,5 @@ sections:
 
 
 ---
+
+{{< youtube CdS7prTj5nw >}}
