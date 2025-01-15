@@ -50,7 +50,14 @@ sections:
     content:
       title: 📹 Featured Video
       subtitle: ''
-      text: This is a <mark>highlighted quote</mark>.
+      text: ```markmap {height="200px"}
+            - Hugo Modules
+              - blox-tailwind
+              - blox-plugins-netlify
+              - blox-plugins-netlify-cms
+              - blox-plugins-reveal
+            ```
+
       
       columns: 1
   - block: collection
