@@ -196,6 +196,7 @@ df = pd.DataFrame(results_list)
 # Display the DataFrame
 df
 
+
 {{< table path="Out_12.csv" header="true" caption="Table 1: Check results" >}}
 
 ```
