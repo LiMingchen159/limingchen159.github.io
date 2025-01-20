@@ -3,6 +3,7 @@ title: Brick Model Tutorial- Meter Data to Building Data
 date: '2025-01-20'
 ---
 
+[Here](https://github.com/LiMingchen159/HKUST_Meter_Brick/blob/master/Step_By_Step_Tutorial/Meter2BuiildingData.ipynb) is the source code; you can copy it directly.
 
 This tutorial uses data from the academic buildings of the Hong Kong University of Science and Technology (HKUST) as an example. Through this tutorial, you will learn:
 1. How to use the Brick Model to find the required meter.
