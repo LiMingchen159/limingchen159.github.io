@@ -149,12 +149,12 @@ for i in result:
 ```python
 query_ac_meter = f"""
     SELECT ?meter
-    WHERE {{
+    WHERE {
         bldg:Academic_Building brick:hasPart ?zone .
         ?zone a brick:Zone .
         ?zone brick:hasPart ?meter .
         ?meter a brick:Electrical_Meter .
-    }}
+    }
 """
 result = graph.query(query_ac_meter)
 Meter_list = []
@@ -178,8 +178,8 @@ for meter in Meter_list:
             ?zone a brick:Zone .
             ?building brick:hasPart ?zone .
             ?building a brick:Building .
-        }.format(meter, meter)
-    """
+        }
+    """.format(meter, meter)
     result = graph.query(query_meter_belong)
     for i in result:
         # Append the results to the list
@@ -195,6 +195,9 @@ df = pd.DataFrame(results_list)
 
 # Display the DataFrame
 df
+
+{{< table path="Out_12.csv" header="true" caption="Table 1: Check results" >}}
+
 ```
 
 <div>
