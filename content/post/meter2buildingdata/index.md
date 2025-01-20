@@ -34,9 +34,9 @@ graph.parse(file_path, format='turtle')
 # Query to retrieve all buildings
 query_all_building = f"""
     SELECT ?building
-    WHERE {{
+    WHERE {
         ?building a brick:Building .
-    }}
+    }
 """
 
 # Execute the query and display the results
@@ -88,10 +88,10 @@ for row in buildings:
 # Define the SPARQL query to select all zones associated with academic building
 query_all_zone = f"""
     SELECT ?zone
-    WHERE {{
+    WHERE {
         ?zone a brick:Zone .  # Find all entities of type 'brick:Zone'
-        FILTER EXISTS {{ bldg:Academic_Building brick:hasPart ?zone }}
-    }}
+        FILTER EXISTS { bldg:Academic_Building brick:hasPart ?zone }
+    }
 """
 
 # Execute the SPARQL query on the graph
@@ -780,13 +780,13 @@ results_list = []
 for meter in Meter_list:
     query_meter_belong = f"""
         SELECT ?building ?zone
-        WHERE {{
-            bldg:{meter} a brick:Electrical_Meter .
-            ?zone brick:hasPart bldg:{meter} .
+        WHERE {
+            bldg:{} a brick:Electrical_Meter .
+            ?zone brick:hasPart bldg:{} .
             ?zone a brick:Zone .
             ?building brick:hasPart ?zone .
             ?building a brick:Building .
-        }}
+        }.format(meter, meter)
     """
     result = graph.query(query_meter_belong)
     for i in result:
