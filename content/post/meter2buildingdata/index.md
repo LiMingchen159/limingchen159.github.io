@@ -15,9 +15,9 @@ image:
 
 
 This tutorial uses data from the academic buildings of the Hong Kong University of Science and Technology (HKUST) as an example. Through this tutorial, you will learn:
-1. How to use the Brick Schema to find the required meter inputs.
+1. How to use the Brick Model to find the required meter.
 2. How to preprocess meter data.
-3. How to convert meter data into building energy usage data.
+3. How to convert meter data into building energy consumption (or power) data.
 4. Basic data visualization techniques.
 
 ## Step 1: Environment Setup
@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 ```
 
 ## Step 2: Explore HKUST Brick Model
-Here is a simple application of the `Query_Example` from this repository. Please download the `HKUST_Meter_Metadata.ttl` file from https://datadryad.org/stash/dataset/doi:10.5061/dryad.k3j9kd5h6.
+Here is a simple application of the `Query_Example` from [this repository](https://github.com/LiMingchen159/HKUST_Meter_Brick). Please download the `HKUST_Meter_Metadata.ttl` file from https://datadryad.org/stash/dataset/doi:10.5061/dryad.k3j9kd5h6.
 
 ```python
 # Load the Brick Schema model into the graph
@@ -314,7 +314,7 @@ df
 <p>671 rows × 4 columns</p>
 </div>
 
-From the results, it can be seen that all meters belong to the Academic Building. Some meters, however, belong to both the Animal Care Facility 7 F Eelectrical space and the NFF2 Lab, specifically the NFF2_Lab_Elect space.
+From the results, it can be seen that all meters belong to the Academic Building. However, during the inspection, it was found that some meters are associated with both the Academic Building and the Animal Care Facility 7 F Electrical. This overlap occurs because the NFF2_Lab_Elect zone is linked to both buildings.
 
 ```python
 # Remove duplicate meters.
@@ -537,7 +537,7 @@ print(f"Building consumption data saved to {output_file}")
 
     Building consumption data saved to Building_Consumption_Data.xlsx
 
-## Step 7: Data Visualization
+## Step 6: Data Visualization
 
 ```python
 # Load the data from the Excel file
