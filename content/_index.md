@@ -15,9 +15,7 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: See BuildingGPT
-        url: buildinggpt/
+      
     design:
       css_class: dark
       background:
