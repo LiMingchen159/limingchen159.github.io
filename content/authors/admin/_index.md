@@ -47,8 +47,7 @@ profiles:
     url: uploads/MingchenLi_CV_EN.pdf
 
 interests:
-  - Large Language Model
-  - Semantic Model
+  - Semantic Model (e.g., Brick)
   - Building Performance Optimization
   - Machine Learning
 
@@ -58,7 +57,7 @@ education:
     date_start: 2023-09-01
     date_end: ''
     summary: |
-      BuildingGPT, a Large Language Model for Building metadata.
+      Research on semantic models for building metadata, focusing on Brick schema and its application in smart buildings.
    # button:
     #  text: 'Read Thesis'
     #  url: 'https://example.com'
@@ -184,3 +183,4 @@ awards:
 
 Mingchen Li is a PhD student in Civil Engineering at Hong Kong University of Science and Technology (HKUST). He research interests include Large Language Model, Semantic Model, Building Performance Optimization and Machine Learning. He is now a student of **[Prof. Wang](https://walterzwang.github.io/)** and works on semantic modeling of air conditioning systems.
 {style="text-align: justify;"}
+
