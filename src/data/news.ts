@@ -6,7 +6,7 @@ export interface NewsItem {
     title: string;
     description?: string;
     link?: string;
-    related_paper_id?: string;
+    related_paper_id?: string | null;
     category?: 'publication' | 'career';
 }
 
