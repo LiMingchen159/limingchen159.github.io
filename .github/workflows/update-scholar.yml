@@ -50,7 +50,10 @@ jobs:
             ### Review Checklist
             - [ ] Check new publications are correctly formatted
             - [ ] Verify citation counts are updated
+            - [ ] **Review author status** (first/corresponding/other) for new publications
+            - [ ] **Add month information** for new publications (currently empty by default)
             - [ ] Review any new yearly summaries
+            - [ ] Verify venue names and publication year
             
             **Note**: This PR was automatically created by the scheduled workflow. Please review and merge if everything looks correct.
           branch: 'auto-update/publications'
