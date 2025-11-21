@@ -32,16 +32,29 @@ jobs:
         run: |
           python scripts/update_publications.py
 
-      - name: Check for changes
-        id: git-check
-        run: |
-          git diff --exit-code src/data/publications.json src/data/news.json || echo "changed=true" >> $GITHUB_OUTPUT
-
-      - name: Commit and push if changed
-        if: steps.git-check.outputs.changed == 'true'
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add src/data/publications.json src/data/news.json
-          git commit -m "chore: auto-update publications from Google Scholar"
-          git push
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: auto-update publications from Google Scholar'
+          title: '🤖 Auto-update: Publications from Google Scholar'
+          body: |
+            ## 📚 Automated Publication Update
+            
+            This pull request contains updates to publications and news from Google Scholar.
+            
+            ### Changes
+            - Updated `src/data/publications.json` with latest citation counts
+            - Updated `src/data/news.json` with any new publications or yearly summaries
+            
+            ### Review Checklist
+            - [ ] Check new publications are correctly formatted
+            - [ ] Verify citation counts are updated
+            - [ ] Review any new yearly summaries
+            
+            **Note**: This PR was automatically created by the scheduled workflow. Please review and merge if everything looks correct.
+          branch: 'auto-update/publications'
+          delete-branch: true
+          labels: |
+            automated
+            publications
