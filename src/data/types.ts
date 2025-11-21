@@ -31,6 +31,7 @@ export interface Project {
     github?: string;
     demo?: string;
     image?: string;
+    color?: string;
 }
 
 export interface TeachingCourse {

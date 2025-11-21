@@ -48,7 +48,7 @@ const NewsCard3D: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 const NewsPage: React.FC<NewsPageProps> = ({ isDark = false }) => {
 
 
-    const [filter, setFilter] = useState<'all' | 'publication' | 'career'>('all');
+    const [filter, setFilter] = useState<'all' | 'publication' | 'career' | 'tools'>('all');
 
     // Filter news based on selected category
     const filteredNews = profile.news.filter(item => {
@@ -106,7 +106,7 @@ const NewsPage: React.FC<NewsPageProps> = ({ isDark = false }) => {
 
                 {/* Filter Controls */}
                 <div className="flex justify-center gap-2">
-                    {(['all', 'publication', 'career'] as const).map((f) => (
+                    {(['all', 'publication', 'career', 'tools'] as const).map((f) => (
                         <button
                             key={f}
                             onClick={() => setFilter(f)}

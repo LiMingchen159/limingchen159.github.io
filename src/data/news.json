@@ -1,5 +1,21 @@
 [
     {
+        "date": "2025-11",
+        "title": "HHW Brick Released",
+        "description": "Released hhw_brick, a toolkit for analyzing heating hot water systems using Brick Schema. It includes a CSV-to-Brick converter, multi-level validators, and portable analytics applications.",
+        "category": "tools",
+        "link": "https://github.com/CenterForTheBuiltEnvironment/HHW_brick",
+        "related_paper_id": null
+    },
+    {
+        "date": "2025-11",
+        "title": "BuildingAgent Demo Online",
+        "description": "The BuildingAgent Demo is now online! Watch the video to see our latest progress in building autonomous agents for the built environment.",
+        "category": "tools",
+        "link": "https://www.youtube.com/watch?v=3gPiw9CcoHs&t=1s",
+        "related_paper_id": null
+    },
+    {
         "date": "2025-08-04",
         "title": "Visiting Scholar at UC Berkeley",
         "description": "I will be joining the University of California, Berkeley as a Visiting Scholar.",

@@ -7,7 +7,7 @@ export interface NewsItem {
     description?: string;
     link?: string;
     related_paper_id?: string | null;
-    category?: 'publication' | 'career';
+    category?: 'publication' | 'career' | 'tools';
 }
 
 // News Data - Single Source of Truth
