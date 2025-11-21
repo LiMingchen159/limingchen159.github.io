@@ -1,24 +1,23 @@
 [
     {
-        "id": "optimization-and-performance-analysis-of-integrated-2025",
-        "title": "Optimization and performance analysis of integrated energy systems considering hybrid electro-thermal energy storage",
+        "id": "pv-gpt-query-the-pv-data-2025",
+        "title": "PV-GPT: query the PV data using natural language",
         "authors": [
-            "Xin-Yu Ren",
-            "Zhi-Hua Wang",
-            "Ming-Chen Li",
-            "Ling-Ling Li"
+            "Di Zhang",
+            "Mingchen Li",
+            "Zhe Wang"
         ],
-        "venue": "Energy",
+        "venue": "Journal of Building Engineering",
         "year": 2025,
-        "month": "",
-        "abstract": "As the integration and complexity of integrated energy systems (IES) continue to increase, the synergistic optimization of operation strategies and configuration schemes is encountering formidable challenges. This study presents a novel IES planning model that enables hierarchical optimization of operation strategies and configuration schemes, considering hybrid electric and thermal energy storage. In the initial phase, a population intelligence approach is employed to optimize the configuration scheme of the system. Subsequently, in the second stage, mathematical planning methods are utilized to optimize the operation strategy of the system, thereby further enhancing its performance. The case study reveals that the proposed hierarchical configuration and operation optimization model significantly improves the system's independence, energy, environmental, and economic performance compared to multiple …",
+        "abstract": "Building operations account for about 30 % of global final energy use, underscoring the need for intelligent, data-driven energy management. Modern building automation systems generate vast volumes of real-time time-series data from heterogeneous sources, yet non-technical users often face high entry barriers due to fragmented metadata, inconsistent APIs, and complex query languages. To address these challenges, we present PV-GPT, an agent framework that leverages large language models (LLMs) and the Brick ontology to enable natural language querying of building energy data. By integrating structured prompting, modular primitive functions, and a closed-loop retrieval–generation–execution architecture, PV-GPT translates user queries into accurate, executable code across semantic (SPARQL), API, and time-series databases. The system is evaluated using a real-world dataset collected from 60 …",
         "tags": [],
-        "citations": 15,
+        "citations": 0,
         "featured": false,
         "author_status": "other",
         "links": {
-            "pdf": "https://www.sciencedirect.com/science/article/pii/S0360544224039501"
-        }
+            "pdf": "https://www.sciencedirect.com/science/article/pii/S235271022502772X"
+        },
+        "date": "2025-10-31"
     },
     {
         "id": "buildinggpt-query-building-semantic-data-using-2025",
@@ -29,7 +28,6 @@
         ],
         "venue": "Building and Environment",
         "year": 2025,
-        "month": "",
         "abstract": "Semantic web technologies offer a promising avenue for integrating heterogeneous building data across the entire Architecture, Engineering, Construction, and Operation (AECO) lifecycle. Yet querying such ontology-based data remains challenging, as it typically demands expertise in formal query languages like SPARQL Protocol and RDF Query Language (SPARQL). To address this, we present BuildingGPT, a novel framework that harnesses Large Language Models (LLMs) and a vector-graph retrieval-augmented generation (VG-RAG) pipeline. This approach empowers users to intuitively query building data grounded in semantic ontologies (e.g., the Brick Schema) using natural language. Evaluations on synthetic question types derived from 45 Brick Schema-based real building models—covering four complexities and six question types (18,555 samples)—demonstrate that VG-RAG outperforms baselines by …",
         "tags": [],
         "citations": 1,
@@ -37,48 +35,8 @@
         "author_status": "first",
         "links": {
             "pdf": "https://www.sciencedirect.com/science/article/pii/S0360132325013253"
-        }
-    },
-    {
-        "id": "autocontrol-an-end-to-end-fully-2025",
-        "title": "AutoControl: An end-to-end fully automated workflow for control design of building energy systems",
-        "authors": [
-            "Ziqi Hu",
-            "Mingchen Li",
-            "Hao Tang",
-            "Zhe Wang"
-        ],
-        "venue": "Energy",
-        "year": 2025,
-        "month": "",
-        "abstract": "Developing an efficient and effective control system is critical to enhance built environment quality, to reduce building energy consumption and to achieve the carbon neutrality goal. However, this process is expertise demanding, time consuming, and error-prone, particularly for large-scale buildings with complicated building energy systems. To address this challenge, this study proposes AutoControl, an end-to-end fully automated workflow based on Large Language Models (LLMs). AutoControl incorporates two LLM-based agents that utilize Brick models as inputs to automatically design and generate Proportional-Integral (PI) controller codes. The first LLM agent, a semantic interpreter, extracts and translates configuration details from the Brick model into a comprehensive description of the building energy system and related control specifications. The second LLM agent, a control expert agent, generates the PI …",
-        "tags": [],
-        "citations": 1,
-        "featured": false,
-        "author_status": "co-first",
-        "links": {
-            "pdf": "https://www.sciencedirect.com/science/article/pii/S0360544225039714"
-        }
-    },
-    {
-        "id": "pv-gpt-query-the-pv-data-2025",
-        "title": "PV-GPT: query the PV data using natural language",
-        "authors": [
-            "Di Zhang",
-            "Mingchen Li",
-            "Zhe Wang"
-        ],
-        "venue": "Journal of Building Engineering",
-        "year": 2025,
-        "month": "",
-        "abstract": "Building operations account for about 30 % of global final energy use, underscoring the need for intelligent, data-driven energy management. Modern building automation systems generate vast volumes of real-time time-series data from heterogeneous sources, yet non-technical users often face high entry barriers due to fragmented metadata, inconsistent APIs, and complex query languages. To address these challenges, we present PV-GPT, an agent framework that leverages large language models (LLMs) and the Brick ontology to enable natural language querying of building energy data. By integrating structured prompting, modular primitive functions, and a closed-loop retrieval–generation–execution architecture, PV-GPT translates user queries into accurate, executable code across semantic (SPARQL), API, and time-series databases. The system is evaluated using a real-world dataset collected from 60 …",
-        "tags": [],
-        "citations": 0,
-        "featured": false,
-        "author_status": "other",
-        "links": {
-            "pdf": "https://www.sciencedirect.com/science/article/pii/S235271022502772X"
-        }
+        },
+        "date": "2025-10-11"
     },
     {
         "id": "automating-exterior-bim-for-existing-buildings-2025",
@@ -93,7 +51,6 @@
         ],
         "venue": "Automation in Construction",
         "year": 2025,
-        "month": "",
         "abstract": "Building Information Modelling (BIM) has wide applications in smart cities, yet many existing buildings lack BIM models due to the time, expertise, and effort required for manual creation. This paper proposed an automated workflow for generating exterior BIM models. The process begins with extracting building contours from Geographic Information Systems (GIS) data for Unmanned Aerial Vehicle (UAV) trajectory planning. UAVs then capture full-scale façade images, which are processed using monocular photogrammetry. Subsequently, MVSBuilding, a transfer-based Multi-view Stereo algorithm, is developed to generate a point cloud, segment it, and extract key structural components. Last, Dynamo is used to reconstruct an exterior BIM model based on the point cloud and component geometry. The resulting BIM is detailed enough to support building energy modeling (BEM) and daylight simulation. This approach …",
         "tags": [],
         "citations": 0,
@@ -101,51 +58,29 @@
         "author_status": "co-first",
         "links": {
             "pdf": "https://www.sciencedirect.com/science/article/pii/S0926580525004625"
-        }
+        },
+        "date": "2025-10-01"
     },
     {
-        "id": "publisher-correction-a-multi-year-campus-2025",
-        "title": "Publisher Correction: A multi-year campus-level smart meter database",
+        "id": "autocontrol-an-end-to-end-fully-2025",
+        "title": "AutoControl: An end-to-end fully automated workflow for control design of building energy systems",
         "authors": [
+            "Ziqi Hu",
             "Mingchen Li",
-            "Zhe Wang",
-            "Yao Qu",
-            "Kin Ming Chui",
-            "Marcus Leung-Shea"
+            "Hao Tang",
+            "Zhe Wang"
         ],
-        "venue": "Scientific Data",
+        "venue": "Energy",
         "year": 2025,
-        "month": "",
-        "abstract": "Publisher Correction: A multi-year campus-level smart meter database - PMC Skip to main \ncontent Here's how you know Official websites use .gov A .gov website belongs to an official \ngovernment organization in the United States. Secure .gov websites use HTTPS A lock ( Locked \npadlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive \ninformation only on official, secure websites. NCBI home page Search Log in Dashboard \nPublications Account settings Log out Search… Search NCBI Primary site navigation Close \nSearch Search Logged in as: Dashboard Publications Account settings Log in Search PMC \nFull-Text Archive Search in PMC Search Advanced Search Journal List User Guide NewTry this \nsearch in PMC Beta Search PERMALINK Copy As a library, NLM provides access to scientific \nliterature. Inclusion in an NLM database does not imply endorsement of, or agreement with…",
+        "abstract": "Developing an efficient and effective control system is critical to enhance built environment quality, to reduce building energy consumption and to achieve the carbon neutrality goal. However, this process is expertise demanding, time consuming, and error-prone, particularly for large-scale buildings with complicated building energy systems. To address this challenge, this study proposes AutoControl, an end-to-end fully automated workflow based on Large Language Models (LLMs). AutoControl incorporates two LLM-based agents that utilize Brick models as inputs to automatically design and generate Proportional-Integral (PI) controller codes. The first LLM agent, a semantic interpreter, extracts and translates configuration details from the Brick model into a comprehensive description of the building energy system and related control specifications. The second LLM agent, a control expert agent, generates the PI …",
         "tags": [],
-        "citations": 0,
-        "featured": true,
-        "author_status": "first",
+        "citations": 1,
+        "featured": false,
+        "author_status": "co-first",
         "links": {
-            "pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11730961/"
-        }
-    },
-    {
-        "id": "a-multi-year-campus-level-smart-2025",
-        "title": "A multi-year campus-level smart meter database (vol 11, 1284, 2024)",
-        "authors": [
-            "Mingchen Li",
-            "Zhe Wang",
-            "Yao Qu",
-            "Kin Ming Chui",
-            "Marcus Leung-Shea"
-        ],
-        "venue": "SCIENTIFIC DATA",
-        "year": 2025,
-        "month": "",
-        "abstract": "",
-        "tags": [],
-        "citations": 0,
-        "featured": true,
-        "author_status": "first",
-        "links": {
-            "pdf": "https://scholar.google.com/scholar?cluster=3221097198395697302&hl=en&oi=scholarr"
-        }
+            "pdf": "https://www.sciencedirect.com/science/article/pii/S0360544225039714"
+        },
+        "date": "2025-09-16"
     },
     {
         "id": "developing-an-automatic-approach-to-generate-2025",
@@ -160,7 +95,6 @@
         ],
         "venue": "Available at SSRN 4759342",
         "year": 2025,
-        "month": "",
         "abstract": "In the AECO (Architecture, Engineering, Construction, and Operations) sector, addressing information silos for efficient building operation and maintenance is crucial. The Graph-based BIM (Building Information Modeling) supports information sharing and digital twin implementation but struggles to integrate operational data. The Brick ontology overcomes this by standardizing metadata for building assets and their relationships. However, errors in human-generated BIM models hinder widespread application. This paper introduces a novel BIM-to-Brick methodology that corrects IFC (Industry Foundation Classes) models, enabling the creation of high-quality Brick models from imperfect BIM ones. This method facilitates end-to-end digital twin creation with operational data integration, significantly reducing the effort by managing real-world BIM inaccuracies. Our case study confirms the method's effectiveness in generating compliant Brick models, showcasing its potential to improve information reusability and reduce information silos in construction.",
         "tags": [],
         "citations": 0,
@@ -168,7 +102,73 @@
         "author_status": "first",
         "links": {
             "pdf": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4759342"
-        }
+        },
+        "date": "2025-08-22"
+    },
+    {
+        "id": "a-multi-year-campus-level-smart-2025",
+        "title": "A multi-year campus-level smart meter database (vol 11, 1284, 2024)",
+        "authors": [
+            "Mingchen Li",
+            "Zhe Wang",
+            "Yao Qu",
+            "Kin Ming Chui",
+            "Marcus Leung-Shea"
+        ],
+        "venue": "SCIENTIFIC DATA",
+        "year": 2025,
+        "abstract": "",
+        "tags": [],
+        "citations": 0,
+        "featured": true,
+        "author_status": "first",
+        "links": {
+            "pdf": "https://scholar.google.com/scholar?cluster=3221097198395697302&hl=en&oi=scholarr"
+        },
+        "date": "2025-01-13"
+    },
+    {
+        "id": "optimization-and-performance-analysis-of-integrated-2025",
+        "title": "Optimization and performance analysis of integrated energy systems considering hybrid electro-thermal energy storage",
+        "authors": [
+            "Xin-Yu Ren",
+            "Zhi-Hua Wang",
+            "Ming-Chen Li",
+            "Ling-Ling Li"
+        ],
+        "venue": "Energy",
+        "year": 2025,
+        "abstract": "As the integration and complexity of integrated energy systems (IES) continue to increase, the synergistic optimization of operation strategies and configuration schemes is encountering formidable challenges. This study presents a novel IES planning model that enables hierarchical optimization of operation strategies and configuration schemes, considering hybrid electric and thermal energy storage. In the initial phase, a population intelligence approach is employed to optimize the configuration scheme of the system. Subsequently, in the second stage, mathematical planning methods are utilized to optimize the operation strategy of the system, thereby further enhancing its performance. The case study reveals that the proposed hierarchical configuration and operation optimization model significantly improves the system's independence, energy, environmental, and economic performance compared to multiple …",
+        "tags": [],
+        "citations": 15,
+        "featured": false,
+        "author_status": "other",
+        "links": {
+            "pdf": "https://www.sciencedirect.com/science/article/pii/S0360544224039501"
+        },
+        "date": "2025-01-01"
+    },
+    {
+        "id": "publisher-correction-a-multi-year-campus-2025",
+        "title": "Publisher Correction: A multi-year campus-level smart meter database",
+        "authors": [
+            "Mingchen Li",
+            "Zhe Wang",
+            "Yao Qu",
+            "Kin Ming Chui",
+            "Marcus Leung-Shea"
+        ],
+        "venue": "Scientific Data",
+        "year": 2025,
+        "abstract": "Publisher Correction: A multi-year campus-level smart meter database - PMC Skip to main \ncontent Here's how you know Official websites use .gov A .gov website belongs to an official \ngovernment organization in the United States. Secure .gov websites use HTTPS A lock ( Locked \npadlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive \ninformation only on official, secure websites. NCBI home page Search Log in Dashboard \nPublications Account settings Log out Search… Search NCBI Primary site navigation Close \nSearch Search Logged in as: Dashboard Publications Account settings Log in Search PMC \nFull-Text Archive Search in PMC Search Advanced Search Journal List User Guide NewTry this \nsearch in PMC Beta Search PERMALINK Copy As a library, NLM provides access to scientific \nliterature. Inclusion in an NLM database does not imply endorsement of, or agreement with…",
+        "tags": [],
+        "citations": 0,
+        "featured": true,
+        "author_status": "first",
+        "links": {
+            "pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11730961/"
+        },
+        "date": ""
     },
     {
         "id": "a-novel-multi-objective-generative-design-2024",
@@ -182,7 +182,6 @@
         ],
         "venue": "Applied Energy",
         "year": 2024,
-        "month": "",
         "abstract": "Building Performance Optimization (BPO) plays a pivotal role in enhancing building performance, guaranteeing comfort while reducing resource consumption. Existing performance-driven generative design is computational demanding and difficult to be generalized to other similar buildings with difficult to be generalized to other building types or climate conditions. To fill this gap, this paper introduces a novel framework, which integrates multitask learning (MTL), code compliance check, and multi-objective optimization through NSGA-III algorithm. This framework is able to identify Paratoo Optimal design solutions, which comply with building codes, at low computation costs. The framework begins with selecting key design variables that are critical to building energy, comfort performance and life cycle cost. It then employs MTL to enhance the model's accuracy while reducing computational costs. Next, we designed a …",
         "tags": [],
         "citations": 6,
@@ -190,7 +189,30 @@
         "author_status": "first",
         "links": {
             "pdf": "https://www.sciencedirect.com/science/article/pii/S0306261924016039"
-        }
+        },
+        "date": "2024-12-15"
+    },
+    {
+        "id": "a-multi-year-campus-level-smart-2024",
+        "title": "A multi-year campus-level smart meter database",
+        "authors": [
+            "Mingchen Li",
+            "Zhe Wang",
+            "Yao Qu",
+            "Kin Ming Chui",
+            "Marcus Leung-Shea"
+        ],
+        "venue": "Scientific Data",
+        "year": 2024,
+        "abstract": "With the growing need for precise campus electricity management, understanding load patterns is crucial for improving energy efficiency and optimizing energy use. However, detailed electricity load data for campus buildings and their internal equipment is often lacking, hindering research. This paper introduces an energy consumption monitoring dataset from The Hong Kong University of Science and Technology (HKUST) campus in Hong Kong, comprising data from over 1400 meters across more than 20 buildings and collected over two and a half years. Using the Brick Schema curation strategy, raw data was curated into a research-ready format. This dataset supports various research tasks, including load pattern recognition, fault detection, demand response strategies, and load forecasting.",
+        "tags": [],
+        "citations": 2,
+        "featured": true,
+        "author_status": "first",
+        "links": {
+            "pdf": "https://www.nature.com/articles/s41597-024-04106-1"
+        },
+        "date": "2024-11-26"
     },
     {
         "id": "developing-an-automatic-integration-approach-to-2024",
@@ -205,7 +227,6 @@
         ],
         "venue": "Journal of Building Engineering",
         "year": 2024,
-        "month": "",
         "abstract": "Recent advanced architectural algorithms, such as real-time optimization control and fault diagnostics, have garnered significant interest for their ability to reduce building energy consumption and improve equipment maintenance efficiency. However, deploying these algorithms in actual buildings often involves significant manual effort and time to align building data points with algorithmic requirements. In response, standardized ontologies like the Brick Schema have been introduced. This ontology streamlines the representation of building topology, equipment, and data points, as well as algorithm inputs, enabling quicker algorithm integration and deployment. Despite these advancements, manually constructing Brick models from scratch remains time-consuming, laborious, and prone to errors, presenting a new challenge in rapid model development. To overcome these issues, some researchers have turned to …",
         "tags": [],
         "citations": 3,
@@ -213,29 +234,29 @@
         "author_status": "first",
         "links": {
             "pdf": "https://www.sciencedirect.com/science/article/pii/S2352710224022654"
-        }
+        },
+        "date": "2024-11-15"
     },
     {
-        "id": "a-multi-year-campus-level-smart-2024",
-        "title": "A multi-year campus-level smart meter database",
+        "id": "based-on-ann-and-many-objective-2023",
+        "title": "Based on ANN and many-objective optimization to improve the performance and economy of village houses in Chinese cold regions",
         "authors": [
+            "Juanli Guo",
+            "Jian Zhou",
             "Mingchen Li",
-            "Zhe Wang",
-            "Yao Qu",
-            "Kin Ming Chui",
-            "Marcus Leung-Shea"
+            "Siao Lu"
         ],
-        "venue": "Scientific Data",
-        "year": 2024,
-        "month": "",
-        "abstract": "With the growing need for precise campus electricity management, understanding load patterns is crucial for improving energy efficiency and optimizing energy use. However, detailed electricity load data for campus buildings and their internal equipment is often lacking, hindering research. This paper introduces an energy consumption monitoring dataset from The Hong Kong University of Science and Technology (HKUST) campus in Hong Kong, comprising data from over 1400 meters across more than 20 buildings and collected over two and a half years. Using the Brick Schema curation strategy, raw data was curated into a research-ready format. This dataset supports various research tasks, including load pattern recognition, fault detection, demand response strategies, and load forecasting.",
+        "venue": "Journal of Building Performance Simulation",
+        "year": 2023,
+        "abstract": "The number of studies considering building performance optimization (BPO) in the building design phase is steadily growing, but many of the existing studies do not consider the applicability of many-objective optimization algorithms when increasing the objective dimensions. This article first compares the NSGA-II, IDBEA, MSOPS-II, and NSGA-III algorithms. Then, the algorithm most suitable for many-objective optimization is combined with Artificial natural network(ANN) and TOPSIS-AHP to complete the optimization of four dimensions of building energy consumption (EC), useful daylight illuminance (UDI), comfort time ratio (CTR) and energy-saving envelope cost (ESEC) for village houses in cold regions of China. The results show that the NSGA-III algorithm performs well in terms of convergence speed, convergence, diversity, and uniformity when solving many-objective problems compared to the other three …",
         "tags": [],
-        "citations": 2,
-        "featured": true,
-        "author_status": "first",
+        "citations": 12,
+        "featured": false,
+        "author_status": "corresponding",
         "links": {
-            "pdf": "https://www.nature.com/articles/s41597-024-04106-1"
-        }
+            "pdf": "https://www.tandfonline.com/doi/abs/10.1080/19401493.2023.2183259"
+        },
+        "date": "2023-09-03"
     },
     {
         "id": "modelling-variable-refrigerant-flow-system-for-2023",
@@ -252,7 +273,6 @@
         ],
         "venue": "Unknown Venue",
         "year": 2023,
-        "month": "",
         "abstract": "Variable Refrigerant Flow (VRF) systems are gradually gaining popularity in small and medium-sized commercial and residential buildings owing to their high part-load performance, flexible control, and ease of installation and maintenance. Developing models of VRF systems to predict their performance are important for model-based control, fault diagnostic and detection. There are VRF models published in existing literatures, however those models were developed and validated in different datasets. As a result, the model accuracy cannot be directly compared. To fill this gap, this paper presents a comprehensive review of the existing VRF models, and summarizes the input/output parameters and mathematical formulas of 16 VRF models from literature (referred to as physics-based model). Next, we validate and compare the model accuracy of existing models using the same dataset. Additionally, we develop data …",
         "tags": [],
         "citations": 19,
@@ -260,28 +280,8 @@
         "author_status": "co-first",
         "links": {
             "pdf": "https://www.sciencedirect.com/science/article/pii/S0378778823003936"
-        }
-    },
-    {
-        "id": "based-on-ann-and-many-objective-2023",
-        "title": "Based on ANN and many-objective optimization to improve the performance and economy of village houses in Chinese cold regions",
-        "authors": [
-            "Juanli Guo",
-            "Jian Zhou",
-            "Mingchen Li",
-            "Siao Lu"
-        ],
-        "venue": "Journal of Building Performance Simulation",
-        "year": 2023,
-        "month": "",
-        "abstract": "The number of studies considering building performance optimization (BPO) in the building design phase is steadily growing, but many of the existing studies do not consider the applicability of many-objective optimization algorithms when increasing the objective dimensions. This article first compares the NSGA-II, IDBEA, MSOPS-II, and NSGA-III algorithms. Then, the algorithm most suitable for many-objective optimization is combined with Artificial natural network(ANN) and TOPSIS-AHP to complete the optimization of four dimensions of building energy consumption (EC), useful daylight illuminance (UDI), comfort time ratio (CTR) and energy-saving envelope cost (ESEC) for village houses in cold regions of China. The results show that the NSGA-III algorithm performs well in terms of convergence speed, convergence, diversity, and uniformity when solving many-objective problems compared to the other three …",
-        "tags": [],
-        "citations": 12,
-        "featured": false,
-        "author_status": "corresponding",
-        "links": {
-            "pdf": "https://www.tandfonline.com/doi/abs/10.1080/19401493.2023.2183259"
-        }
+        },
+        "date": "2023-08-01"
     },
     {
         "id": "uncertainty-quantification-and-sensitivity-analysis-of-2023",
@@ -294,7 +294,6 @@
         ],
         "venue": "Journal of Building Performance Simulation",
         "year": 2023,
-        "month": "",
         "abstract": "This study is the first to conduct a global sensitivity analysis to identify the crucial variables that have an impact on the energy consumption of substations. The peak cooling and heating energy consumption, as well as the annual cooling and heating energy consumption of a substation in Shandong, are all simulated basing the Monte Carlo method. The simulation outputs are discussed by uncertainty analysis to obtain more accurate energy consumption thresholds. Subsequently, the treed Gaussian process and the standardized rank regression coefficient are used to perform a global sensitivity analysis of the simulation outputs. The results of the two global sensitivity analyses are practically the same, demonstrating that robustness can be ensured by simultaneously using two methods based on different theories. In addition, this study provides an efficient method for the energy-saving retrofitting of the existing …",
         "tags": [],
         "citations": 7,
@@ -302,7 +301,8 @@
         "author_status": "corresponding",
         "links": {
             "pdf": "https://www.tandfonline.com/doi/abs/10.1080/19401493.2022.2141881"
-        }
+        },
+        "date": "2023-05-04"
     },
     {
         "id": "optimized-design-of-floor-plan-and-2022",
@@ -316,7 +316,6 @@
         ],
         "venue": "Applied Sciences",
         "year": 2022,
-        "month": "",
         "abstract": "Optimizing building performance and economic benefits through feedback in building design is a hot topic in current academic research. However, few studies on prefabricated buildings have been undertaken in this field. Meanwhile, the methodology used for achieving optimized solutions is still poor. In this paper, genetic algorithms and correlation analysis are employed and two parametric design methods—i.e., the floor plan generation method and the component selection method—are proposed for the modularity of the prefabricated buildings. Taking a typical high-rise building in Tianjin as an example, correlation analyses are performed on the basis of the two proposed methods to enhance the depth of the optimized finding approach. The outcome of this research demonstrates the feasibility of the proposed numerical approach, which can produce the optimized floor plan and construction set under the local conditions. This also reveals that the shape coefficient and window-to-wall ratio are strongly correlated with the energy performance of a building, which can help architects to pursue optimized design solutions in the schematic design process.",
         "tags": [],
         "citations": 13,
@@ -324,6 +323,7 @@
         "author_status": "corresponding",
         "links": {
             "pdf": "https://www.mdpi.com/2076-3417/12/8/3740"
-        }
+        },
+        "date": "2022-04-08"
     }
 ]

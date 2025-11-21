@@ -133,6 +133,11 @@ def update_publications():
     
     print(f"Found {len(author['publications'])} publications.")
 
+    # Track changes
+    has_new_papers = False
+    has_citation_updates = False
+    new_paper_titles = []
+
     for pub in author['publications']:
         title = pub['bib']['title'].strip()
         print(f"Processing: {title}")
@@ -154,18 +159,35 @@ def update_publications():
 
         pub_id = generate_id(title, year)
         
-        # --- Simple Preservation Logic ---
+        # --- Hybrid Preservation Logic ---
         # If the ID already exists, ONLY update citations, preserve everything else
         if pub_id in existing_publications:
             existing_entry = existing_publications[pub_id]
-            existing_entry['citations'] = pub.get('num_citations', 0)
-            print(f"  ID exists - Only updating citations: {pub.get('num_citations', 0)}")
+            current_citations = pub.get('num_citations', 0)
+            if existing_entry.get('citations', 0) != current_citations:
+                existing_entry['citations'] = current_citations
+                has_citation_updates = True
+                print(f"  ID exists - Citations updated: {existing_entry.get('citations', 0)} -> {current_citations}")
+            else:
+                print(f"  ID exists - No changes.")
             new_pub_entry = existing_entry
         else:
-            # New publication - create full entry
-            print(f"  New publication - Creating entry")
+            # NEW PUBLICATION - Create entry with empty date for manual entry
+            print(f"  New publication - Creating entry (date needs manual entry)")
+            has_new_papers = True
+            new_paper_titles.append(title)
+            
+            # Create full entry for new publication
             detected_role = analyze_author_role(authors_list)
             is_featured = detected_role in ['first', 'corresponding', 'co-first']
+            
+            # Generate Scholar detail URL for manual date lookup
+            cites_id = pub.get('cites_id', [''])[0] if isinstance(pub.get('cites_id'), list) else pub.get('cites_id', '')
+            scholar_url = f"https://scholar.google.com/citations?view_op=view_citation&hl=en&user={AUTHOR_ID}&citation_for_view={AUTHOR_ID}:{cites_id}" if cites_id else ""
+            
+            if scholar_url:
+                print(f"  Scholar URL: {scholar_url}")
+                print(f"  Please manually add 'date' field in format YYYY-MM-DD")
             
             new_pub_entry = {
                 "id": pub_id,
@@ -173,13 +195,14 @@ def update_publications():
                 "authors": authors_list,
                 "venue": venue,
                 "year": year,
-                "month": "",
+                "date": "",  # Empty for manual entry
                 "abstract": abstract,
                 "tags": [],
                 "citations": pub.get('num_citations', 0),
                 "featured": is_featured,
                 "author_status": detected_role,
-                "links": {"pdf": pub.get('pub_url', '')}
+                "links": {"pdf": pub.get('pub_url', '')},
+                "scholar_url": scholar_url  # Add URL for reference
             }
         
         publications_data.append(new_pub_entry)
@@ -233,12 +256,20 @@ def update_publications():
             "related_paper_id": None # No single paper
         }
         publication_news.append(news_entry)
+        # If we generated a new summary, that counts as new content (similar to new papers)
+        # But for now, let's treat it as just news update. 
+        # If the user wants PR for news, we might need to flag it. 
+        # Assuming news update is fine to commit directly unless it's a new paper.
+        # Actually, let's flag it as citation update (safe to commit) or maybe just let it be.
+        # The requirement was "if new paper -> PR". 
+        # "if only citation -> no PR".
+        # Yearly summary is rare (once a year). Let's treat it as safe to commit if no new papers.
 
     # Combine News
     final_news = career_news + publication_news
     
-    # Sort publications by year desc
-    publications_data.sort(key=lambda x: x['year'], reverse=True)
+    # Sort publications by date desc (empty date defaults to year-01-01)
+    publications_data.sort(key=lambda x: x.get('date') or f"{x['year']}-01-01", reverse=True)
     
     # Sort news by date desc
     final_news.sort(key=lambda x: x['date'], reverse=True)
@@ -246,6 +277,17 @@ def update_publications():
     print(f"Saving {len(publications_data)} publications and {len(final_news)} news items.")
     save_json(PUBLICATIONS_FILE, publications_data)
     save_json(NEWS_FILE, final_news)
+
+    # Output Summary for Workflow
+    summary = {
+        "has_new_papers": has_new_papers,
+        "new_paper_titles": new_paper_titles,
+        "has_citation_updates": has_citation_updates
+    }
+    with open('publications_update_summary.json', 'w', encoding='utf-8') as f:
+        json.dump(summary, f, indent=4)
+    
+    print(f"Update Summary: {json.dumps(summary)}")
 
 if __name__ == "__main__":
     update_publications()

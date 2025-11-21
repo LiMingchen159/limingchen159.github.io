@@ -1,0 +1,81 @@
+<svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <!-- Vibrant Orange Gradient for A side -->
+                    <linearGradient id="grad-orange" x1="0" y1="0" x2="1" y2="1">
+                        <stop offset="0%" stop-color="#fbbf24"/>
+                        <stop offset="100%" stop-color="#ea580c"/>
+                    </linearGradient>
+                    
+                    <!-- Tech Blue Gradient for B side details -->
+                    <linearGradient id="grad-cyan" x1="0" y1="0" x2="1" y2="1">
+                        <stop offset="0%" stop-color="#22d3ee"/>
+                        <stop offset="100%" stop-color="#0ea5e9"/>
+                    </linearGradient>
+
+                    <!-- Dark Architectural Grey -->
+                    <linearGradient id="grad-dark" x1="0" y1="0" x2="1" y2="0">
+                        <stop offset="0%" stop-color="#475569"/>
+                        <stop offset="100%" stop-color="#1e293b"/>
+                    </linearGradient>
+                </defs>
+
+                <!-- Center Group -->
+                <!-- Modified translate Y from 220 to 250 to show the top orb completely -->
+                <g transform="translate(200, 250)">
+                    
+                    <!-- ========================================= -->
+                    <!-- LEFT FACE: THE "B" BUILDING -->
+                    <!-- ========================================= -->
+                    
+                    <!-- 1. The Dark Wall Base -->
+                    <path d="M-90 -130 L-90 80 L0 130 L0 -80 z" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+                    <!-- Top of Left Block -->
+                    <path d="M-90 -130 L-90 80 L0 130 L0 -80 z" fill="#334155" opacity="0.5"/> 
+
+                    <!-- 2. The "B" Structure (Bright Cyan Overlay) -->
+                    <!-- Vertical Spine -->
+                    <path d="M-80 -110 L-60 -100 L-60 90 L-80 80 z" fill="#0ea5e9"/>
+                    
+                    <!-- Top Loop Block -->
+                    <path d="M-60 -100 L-10 -75 L-10 5 L-60 -20 z" fill="url(#grad-cyan)"/>
+                    <!-- Bottom Loop Block -->
+                    <path d="M-60 -5 L-10 20 L-10 115 L-60 90 z" fill="url(#grad-cyan)"/>
+                    
+                    <!-- The "Holes" in the B (Dark Windows) to define the shape -->
+                    <path d="M-50 -80 L-20 -65 L-20 -15 L-50 -30 z" fill="#0f172a" fill-opacity="0.8"/> <!-- Top Hole -->
+                    <path d="M-50 15 L-20 30 L-20 95 L-50 80 z" fill="#0f172a" fill-opacity="0.8"/> <!-- Bottom Hole -->
+
+                    <!-- ========================================= -->
+                    <!-- RIGHT FACE: THE "A" TOWER -->
+                    <!-- ========================================= -->
+
+                    <!-- 1. The Orange Wall Base -->
+                    <!-- Note: Extending higher to create a tower feel -->
+                    <path d="M0 130 L90 80 L90 -130 L0 -80 z" fill="url(#grad-orange)"/>
+                    <!-- Top of Right Block -->
+                    <path d="M0 -80 L90 -130 L0 -180 L-90 -130 z" fill="#fed7aa" opacity="0.9"/>
+
+                    <!-- 2. The "A" Structure (White Structural Beams) -->
+                    <!-- Left Leg of A -->
+                    <path d="M10 115 L35 -90 L55 -100 L30 105 z" fill="#ffffff" fill-opacity="0.9"/>
+                    <!-- Right Leg of A -->
+                    <path d="M55 -100 L80 75 L60 85 L35 -90 z" fill="#ffffff" fill-opacity="0.6"/>
+                    <!-- Crossbar of A -->
+                    <path d="M25 40 L65 20 L70 45 L20 70 z" fill="#ffffff"/>
+
+                    <!-- ========================================= -->
+                    <!-- DETAILS & FINISHES -->
+                    <!-- ========================================= -->
+                    
+                    <!-- Center Corner Highlight (Where B meets A) -->
+                    <path d="M0 10 L0 130" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+
+                    <!-- Floating "Agent" Orb (The brain) - STATIC NOW -->
+                    <!-- Removed <animate> tag to keep it steady -->
+                    <circle cx="0" cy="-210" r="12" fill="#38bdf8" filter="drop-shadow(0 0 5px #0ea5e9)"/>
+                    
+                    <!-- Connection Line -->
+                    <path d="M0 -180 L0 -198" stroke="#38bdf8" stroke-width="2"/>
+
+                </g>
+            </svg>
