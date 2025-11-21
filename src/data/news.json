@@ -1,0 +1,26 @@
+[
+    {
+        "date": "2024-12",
+        "title": "Published 3 Papers in 2024",
+        "description": "In 2024, I explored innovative approaches in sustainable building design and smart infrastructure through three impactful publications. Our collaborative efforts, alongside talented co-authors Zhe Wang, Hao Chang, and others, resulted in advancements in generative design, automatic modeling from BIM, and the establishment of a comprehensive smart meter database. A heartfelt thank you to all my co-authors for their invaluable contributions!",
+        "category": "publication",
+        "link": "/publications",
+        "related_paper_id": null
+    },
+    {
+        "date": "2023-12",
+        "title": "Published 3 Papers in 2023",
+        "description": "In 2023, my research focused on enhancing energy efficiency and performance in various systems, explored through three significant publications. A heartfelt thanks to my collaborators Juanli Guo, Dan Wang, Mingyue Guo, Qiaobo Shi, Chunyuan Zheng, Dongdong Li, Siqi Li, Zhe Wang, Jian Zhou, Siao Lu, Zhoupeng Wang, and Yongyun Jin for their invaluable contributions to these projects!",
+        "category": "publication",
+        "link": "/publications",
+        "related_paper_id": null
+    },
+    {
+        "date": "2022-12",
+        "title": "Published 1 Papers in 2022",
+        "description": "In 2022, I had the privilege of contributing to the field of sustainable architecture with our publication titled 'Optimized design of floor plan and components of prefabricated building with energy-cost effect.' This research emphasizes innovative design solutions that enhance energy efficiency in prefabricated buildings. A heartfelt thank you to my talented collaborators Juanli Guo, Zixin Jiang, Zhoupeng Wang, and Yangkong Zhou for their invaluable insights and support throughout this journey.",
+        "category": "publication",
+        "link": "/publications",
+        "related_paper_id": null
+    }
+]
