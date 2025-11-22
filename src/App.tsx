@@ -74,20 +74,34 @@ export default function App() {
             {/* Sidebar (Sticky) */}
             <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/3 lg:flex-col lg:justify-between lg:py-24 z-40">
               <div>
-                {/* 3D Canvas Container */}
-                <div className="relative h-48 md:h-64 w-full -ml-4 mb-2 md:mb-6 select-none cursor-grab active:cursor-grabbing z-50">
-                  <ArchitectureScene isDark={isDark} />
+                {/* Mobile Header Layout: Flex Row for Avatar/Info + 3D Model */}
+                <div className="flex flex-row items-center justify-between md:block">
+
+                  {/* Left Side on Mobile: Avatar + Info */}
+                  <div className="flex-1 md:w-full">
+                    {/* Identity */}
+                    <Avatar src={profile.avatar} isDark={isDark} />
+
+                    <h1 className={`text-3xl font-bold tracking-tight sm:text-5xl transition-colors duration-300 ${themeClasses.textHead}`}>
+                      {profile.name}
+                    </h1>
+                    {/* Chinese Name */}
+                    {profile.nameCN && (
+                      <h1 className={`text-xl font-bold tracking-tight sm:text-2xl mt-1 transition-colors duration-300 ${themeClasses.textHead}`}>
+                        {profile.nameCN}
+                      </h1>
+                    )}
+                    <h2 className={`mt-1 md:mt-3 text-lg font-medium tracking-tight sm:text-xl transition-colors duration-300 ${themeClasses.textSub}`}>
+                      {profile.role}
+                    </h2>
+                  </div>
+
+                  {/* Right Side on Mobile: 3D Model */}
+                  {/* 3D Canvas Container - Pointer events disabled on mobile to prevent scroll blocking */}
+                  <div className="relative h-32 w-32 md:h-64 md:w-full md:-ml-4 mb-0 md:mb-6 select-none md:cursor-grab md:active:cursor-grabbing z-50 pointer-events-none md:pointer-events-auto">
+                    <ArchitectureScene isDark={isDark} />
+                  </div>
                 </div>
-
-                {/* Identity */}
-                <Avatar src={profile.avatar} isDark={isDark} />
-
-                <h1 className={`text-3xl font-bold tracking-tight sm:text-5xl transition-colors duration-300 ${themeClasses.textHead}`}>
-                  {profile.name}
-                </h1>
-                <h2 className={`mt-1 md:mt-3 text-lg font-medium tracking-tight sm:text-xl transition-colors duration-300 ${themeClasses.textSub}`}>
-                  {profile.role}
-                </h2>
 
                 <div className="mt-4 md:mt-8 flex items-center gap-5">
                   <SocialLink icon={<Github size={20} />} href={profile.github} label="GitHub" isDark={isDark} />

@@ -44,6 +44,7 @@ export type { NewsItem };
 
 export const profile = {
     name: "Mingchen Li",
+    nameCN: "李铭晨",
     role: "PHD Student",
     bio: "Mingchen Li is a PhD student in Civil Engineering at Hong Kong University of Science and Technology (HKUST). He research interests include Large Language Model, Semantic Model, Building Performance Optimization and Machine Learning. He is now a student of Prof. Wang and works on semantic modeling of air conditioning systems.",
     avatar: "/avatar.png",
