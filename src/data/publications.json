@@ -30,7 +30,7 @@
         "year": 2025,
         "abstract": "Semantic web technologies offer a promising avenue for integrating heterogeneous building data across the entire Architecture, Engineering, Construction, and Operation (AECO) lifecycle. Yet querying such ontology-based data remains challenging, as it typically demands expertise in formal query languages like SPARQL Protocol and RDF Query Language (SPARQL). To address this, we present BuildingGPT, a novel framework that harnesses Large Language Models (LLMs) and a vector-graph retrieval-augmented generation (VG-RAG) pipeline. This approach empowers users to intuitively query building data grounded in semantic ontologies (e.g., the Brick Schema) using natural language. Evaluations on synthetic question types derived from 45 Brick Schema-based real building models—covering four complexities and six question types (18,555 samples)—demonstrate that VG-RAG outperforms baselines by …",
         "tags": [],
-        "citations": 1,
+        "citations": 2,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -250,7 +250,7 @@
         "year": 2023,
         "abstract": "The number of studies considering building performance optimization (BPO) in the building design phase is steadily growing, but many of the existing studies do not consider the applicability of many-objective optimization algorithms when increasing the objective dimensions. This article first compares the NSGA-II, IDBEA, MSOPS-II, and NSGA-III algorithms. Then, the algorithm most suitable for many-objective optimization is combined with Artificial natural network(ANN) and TOPSIS-AHP to complete the optimization of four dimensions of building energy consumption (EC), useful daylight illuminance (UDI), comfort time ratio (CTR) and energy-saving envelope cost (ESEC) for village houses in cold regions of China. The results show that the NSGA-III algorithm performs well in terms of convergence speed, convergence, diversity, and uniformity when solving many-objective problems compared to the other three …",
         "tags": [],
-        "citations": 12,
+        "citations": 13,
         "featured": false,
         "author_status": "corresponding",
         "links": {
