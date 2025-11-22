@@ -94,10 +94,10 @@ export default function App() {
                     </h1>
 
                     <h2 className={`mt-1 md:mt-3 text-lg font-medium tracking-tight sm:text-xl transition-colors duration-300 ${themeClasses.textSub}`}>
-                      {profile.role}
                       {profile.nameCN && (
-                        <span className="ml-2 opacity-80 font-normal">{profile.nameCN}</span>
+                        <span className="mr-2 opacity-80 font-normal">{profile.nameCN}</span>
                       )}
+                      {profile.role}
                     </h2>
                   </div>
 
