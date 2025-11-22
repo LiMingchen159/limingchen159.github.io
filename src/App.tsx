@@ -68,14 +68,14 @@ export default function App() {
         <Navbar isDark={isDark} />
         <ThemeToggle isDark={isDark} toggleTheme={toggleTheme} />
 
-        <main className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
+        <main className="mx-auto min-h-screen max-w-screen-xl px-6 py-6 md:px-12 md:py-20 lg:px-24 lg:py-0">
           <div className="lg:flex lg:justify-between lg:gap-4">
 
             {/* Sidebar (Sticky) */}
             <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/3 lg:flex-col lg:justify-between lg:py-24 z-40">
               <div>
                 {/* 3D Canvas Container */}
-                <div className="relative h-64 w-full -ml-4 mb-6 select-none cursor-grab active:cursor-grabbing z-50">
+                <div className="relative h-48 md:h-64 w-full -ml-4 mb-2 md:mb-6 select-none cursor-grab active:cursor-grabbing z-50">
                   <ArchitectureScene isDark={isDark} />
                 </div>
 
@@ -85,11 +85,11 @@ export default function App() {
                 <h1 className={`text-3xl font-bold tracking-tight sm:text-5xl transition-colors duration-300 ${themeClasses.textHead}`}>
                   {profile.name}
                 </h1>
-                <h2 className={`mt-3 text-lg font-medium tracking-tight sm:text-xl transition-colors duration-300 ${themeClasses.textSub}`}>
+                <h2 className={`mt-1 md:mt-3 text-lg font-medium tracking-tight sm:text-xl transition-colors duration-300 ${themeClasses.textSub}`}>
                   {profile.role}
                 </h2>
 
-                <div className="mt-8 flex items-center gap-5">
+                <div className="mt-4 md:mt-8 flex items-center gap-5">
                   <SocialLink icon={<Github size={20} />} href={profile.github} label="GitHub" isDark={isDark} />
                   <SocialLink icon={<Linkedin size={20} />} href={profile.linkedin} label="LinkedIn" isDark={isDark} />
                   <SocialLink icon={<GraduationCap size={20} />} href={profile.scholar} label="Google Scholar" isDark={isDark} />
@@ -104,7 +104,7 @@ export default function App() {
             </header>
 
             {/* Main Content Area */}
-            <div className="pt-24 lg:w-3/5 lg:py-24 z-40">
+            <div className="pt-8 lg:w-3/5 lg:py-24 z-40">
               <Routes>
                 <Route path="/" element={<HomePage isDark={isDark} />} />
                 <Route path="/news" element={<NewsPage isDark={isDark} />} />
