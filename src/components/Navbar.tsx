@@ -36,10 +36,11 @@ export const Navbar = ({ isDark }: NavbarProps) => {
             <div className="fixed top-6 left-6 z-50 md:hidden flex flex-col items-start gap-2">
                 <button
                     onClick={() => setIsOpen(!isOpen)}
-                    className={`p-2.5 rounded-full backdrop-blur-md border shadow-lg transition-all duration-300 ${navBgClass} ${isDark ? 'text-teal-300' : 'text-teal-600'}`}
+                    className={`flex items-center gap-2 px-4 py-2.5 rounded-full backdrop-blur-md border shadow-lg transition-all duration-300 ${navBgClass} ${isDark ? 'text-teal-300' : 'text-teal-600'}`}
                     aria-label="Toggle Menu"
                 >
                     {isOpen ? <X size={20} /> : <Menu size={20} />}
+                    <span className="text-sm font-bold tracking-wide">MENU</span>
                 </button>
 
                 {/* Mobile Menu Items */}
