@@ -12,6 +12,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -91,4 +92,11 @@ jobs:
           git add src/data/publications.json src/data/news.json
           git commit -m "chore: auto-update citations"
           git push origin HEAD:${{ github.ref }}
+
+      - name: Trigger Deployment
+        if: steps.update-script.outputs.has_new_papers == 'false' && steps.update-script.outputs.has_citation_updates == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run deploy.yml --ref ${{ github.ref }}
 
