@@ -149,28 +149,6 @@
         "date": "2025-01-01"
     },
     {
-        "id": "applying-semantic-model-for-easy-and-2025",
-        "title": "Applying semantic model for easy and fast deployment of chiller sequencing algorithm",
-        "authors": [
-            "S Li",
-            "M Li",
-            "Z Hu",
-            "Z Wang"
-        ],
-        "venue": "Energy and Buildings, 116830, 2025",
-        "year": 2025,
-        "date": "",
-        "abstract": "",
-        "tags": [],
-        "citations": 0,
-        "featured": false,
-        "author_status": "other",
-        "links": {
-            "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:ufrVoPGSRksC"
-        },
-        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:ufrVoPGSRksC"
-    },
-    {
         "id": "publisher-correction-a-multi-year-campus-2025",
         "title": "Publisher Correction: A multi-year campus-level smart meter database",
         "authors": [
@@ -206,7 +184,7 @@
         "year": 2024,
         "abstract": "Building Performance Optimization (BPO) plays a pivotal role in enhancing building performance, guaranteeing comfort while reducing resource consumption. Existing performance-driven generative design is computational demanding and difficult to be generalized to other similar buildings with difficult to be generalized to other building types or climate conditions. To fill this gap, this paper introduces a novel framework, which integrates multitask learning (MTL), code compliance check, and multi-objective optimization through NSGA-III algorithm. This framework is able to identify Paratoo Optimal design solutions, which comply with building codes, at low computation costs. The framework begins with selecting key design variables that are critical to building energy, comfort performance and life cycle cost. It then employs MTL to enhance the model's accuracy while reducing computational costs. Next, we designed a …",
         "tags": [],
-        "citations": 7,
+        "citations": 6,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -272,7 +250,7 @@
         "year": 2023,
         "abstract": "The number of studies considering building performance optimization (BPO) in the building design phase is steadily growing, but many of the existing studies do not consider the applicability of many-objective optimization algorithms when increasing the objective dimensions. This article first compares the NSGA-II, IDBEA, MSOPS-II, and NSGA-III algorithms. Then, the algorithm most suitable for many-objective optimization is combined with Artificial natural network(ANN) and TOPSIS-AHP to complete the optimization of four dimensions of building energy consumption (EC), useful daylight illuminance (UDI), comfort time ratio (CTR) and energy-saving envelope cost (ESEC) for village houses in cold regions of China. The results show that the NSGA-III algorithm performs well in terms of convergence speed, convergence, diversity, and uniformity when solving many-objective problems compared to the other three …",
         "tags": [],
-        "citations": 12,
+        "citations": 13,
         "featured": false,
         "author_status": "corresponding",
         "links": {
@@ -318,7 +296,7 @@
         "year": 2023,
         "abstract": "This study is the first to conduct a global sensitivity analysis to identify the crucial variables that have an impact on the energy consumption of substations. The peak cooling and heating energy consumption, as well as the annual cooling and heating energy consumption of a substation in Shandong, are all simulated basing the Monte Carlo method. The simulation outputs are discussed by uncertainty analysis to obtain more accurate energy consumption thresholds. Subsequently, the treed Gaussian process and the standardized rank regression coefficient are used to perform a global sensitivity analysis of the simulation outputs. The results of the two global sensitivity analyses are practically the same, demonstrating that robustness can be ensured by simultaneously using two methods based on different theories. In addition, this study provides an efficient method for the energy-saving retrofitting of the existing …",
         "tags": [],
-        "citations": 8,
+        "citations": 7,
         "featured": false,
         "author_status": "corresponding",
         "links": {
