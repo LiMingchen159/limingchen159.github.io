@@ -159,7 +159,7 @@
         ],
         "venue": "Energy and Buildings, 116830, 2025",
         "year": 2025,
-        "date": "",
+        "date": "2025-12-07",
         "abstract": "Though model predictive control (MPC) has demonstrated promising energy saving and load shifting potentials, however its widespread adoption in real buildings is limited, majorly because of the high engineering costs and lack of reusability of the current site-specific deployments. The high cost stems from cross-building data and system heterogeneity and the tight coupling of building-specific information with the MPC controller. This paper presents a semantic model based framework that is designed to address this deployment bottleneck. The framework achieves a smooth decoupling of control logic from building description, which is represented by Brick Schema to formally encode hardware topology, data points, and operational constraints as queryable metadata. This allows a generic controller to discover its entire operational context at runtime. The approach is made more accessible through a structured …",
         "tags": [],
         "citations": 0,
