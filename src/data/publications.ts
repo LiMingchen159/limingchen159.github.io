@@ -7,6 +7,7 @@ export interface Publication {
     venue: string;
     year: number;
     month?: string;
+    date?: string;
     abstract?: string;
     tags?: string[];
     citations?: number;
@@ -22,7 +23,14 @@ export interface Publication {
     author_status?: 'first' | 'corresponding' | 'co-first' | 'other';
 }
 
-export const publications: Publication[] = publicationsData as Publication[];
+export const publications: Publication[] = (publicationsData as Publication[]).sort((a, b) => {
+    const dateA = a.date || `${a.year}-01-01`;
+    const dateB = b.date || `${b.year}-01-01`;
+    // Sort descending (newest first)
+    if (dateA > dateB) return -1;
+    if (dateA < dateB) return 1;
+    return 0;
+});
 
 export const getFeaturedPublications = () => publications.filter(p => p.featured);
 export const getRecentPublications = () => publications.sort((a, b) => b.year - a.year);
