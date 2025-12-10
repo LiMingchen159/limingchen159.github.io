@@ -29,42 +29,32 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run update script
+      - name: Run Update Script
         id: update-script
         env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
         run: |
-          python scripts/update_publications.py
+          python scripts/update_publications_v2.py
           
-          # Parse the summary JSON to set outputs
-          echo "Parsing update summary..."
+          # Set outputs from summary JSON
           if [ -f publications_update_summary.json ]; then
-            has_new_papers=$(jq -r '.has_new_papers' publications_update_summary.json)
-            has_citation_updates=$(jq -r '.has_citation_updates' publications_update_summary.json)
+            echo "has_new_papers=$(python -c "import json; print(str(json.load(open('publications_update_summary.json'))['has_new_papers']).lower())")" >> $GITHUB_OUTPUT
+            echo "has_citation_updates=$(python -c "import json; print(str(json.load(open('publications_update_summary.json'))['has_citation_updates']).lower())")" >> $GITHUB_OUTPUT
             
-            echo "has_new_papers=$has_new_papers" >> $GITHUB_OUTPUT
-            echo "has_citation_updates=$has_citation_updates" >> $GITHUB_OUTPUT
-            
-            # If new papers, create a list for the PR body
-            if [ "$has_new_papers" = "true" ]; then
-              echo "new_paper_titles<<EOF" >> $GITHUB_OUTPUT
-              jq -r '.new_paper_titles[]' publications_update_summary.json >> $GITHUB_OUTPUT
-              echo "EOF" >> $GITHUB_OUTPUT
-            fi
-          else
-            echo "No summary file found. Assuming no changes."
-            echo "has_new_papers=false" >> $GITHUB_OUTPUT
-            echo "has_citation_updates=false" >> $GITHUB_OUTPUT
+            # For titles, we can just read them into a variable
+            echo "new_paper_titles<<EOF" >> $GITHUB_OUTPUT
+            python -c "import json; print('\n'.join(json.load(open('publications_update_summary.json'))['new_paper_titles']))" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
           fi
 
-      - name: Create Pull Request (New Papers)
+      - name: Create Pull Request for New Papers
         if: steps.update-script.outputs.has_new_papers == 'true'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: auto-update publications (new papers found)'
-          title: '🤖 Auto-update: New Papers Detected'
+          commit-message: "feat: add new publications detected from Google Scholar"
+          title: "🤖 New Publications Detected"
           body: |
             ## 📚 New Publications Detected
             
@@ -99,4 +89,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh workflow run deploy.yml --ref ${{ github.ref }}
-
