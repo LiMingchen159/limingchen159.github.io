@@ -1,5 +1,7 @@
 {
-    "has_new_papers": false,
-    "new_paper_titles": [],
-    "has_citation_updates": false
+    "has_new_papers": true,
+    "new_paper_titles": [
+        "Applying semantic model for easy and fast deployment of chiller sequencing algorithm"
+    ],
+    "has_citation_updates": true
 }
