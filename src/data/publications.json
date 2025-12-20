@@ -162,7 +162,7 @@
         "year": 2025,
         "abstract": "As the integration and complexity of integrated energy systems (IES) continue to increase, the synergistic optimization of operation strategies and configuration schemes is encountering formidable challenges. This study presents a novel IES planning model that enables hierarchical optimization of operation strategies and configuration schemes, considering hybrid electric and thermal energy storage. In the initial phase, a population intelligence approach is employed to optimize the configuration scheme of the system. Subsequently, in the second stage, mathematical planning methods are utilized to optimize the operation strategy of the system, thereby further enhancing its performance. The case study reveals that the proposed hierarchical configuration and operation optimization model significantly improves the system's independence, energy, environmental, and economic performance compared to multiple …",
         "tags": [],
-        "citations": 17,
+        "citations": 18,
         "featured": false,
         "author_status": "other",
         "links": {
@@ -272,7 +272,7 @@
         "year": 2023,
         "abstract": "The number of studies considering building performance optimization (BPO) in the building design phase is steadily growing, but many of the existing studies do not consider the applicability of many-objective optimization algorithms when increasing the objective dimensions. This article first compares the NSGA-II, IDBEA, MSOPS-II, and NSGA-III algorithms. Then, the algorithm most suitable for many-objective optimization is combined with Artificial natural network(ANN) and TOPSIS-AHP to complete the optimization of four dimensions of building energy consumption (EC), useful daylight illuminance (UDI), comfort time ratio (CTR) and energy-saving envelope cost (ESEC) for village houses in cold regions of China. The results show that the NSGA-III algorithm performs well in terms of convergence speed, convergence, diversity, and uniformity when solving many-objective problems compared to the other three …",
         "tags": [],
-        "citations": 12,
+        "citations": 11,
         "featured": false,
         "author_status": "corresponding",
         "links": {
