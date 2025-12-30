@@ -1,5 +1,13 @@
 [
     {
+        "date": "2026-12",
+        "title": "Published 1 Papers in 2026",
+        "description": "Published 1 papers in 2026.",
+        "category": "publication",
+        "link": "/publications",
+        "related_paper_id": null
+    },
+    {
         "date": "2025-11",
         "title": "HHW Brick Released",
         "description": "Released hhw_brick, a toolkit for analyzing heating hot water systems using Brick Schema. It includes a CSV-to-Brick converter, multi-level validators, and portable analytics applications.",
