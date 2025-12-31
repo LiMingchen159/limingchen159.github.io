@@ -11,7 +11,7 @@
         ],
         "venue": "Automation in Construction 182, 106738, 2026",
         "year": 2026,
-        "date": "",
+        "date": "2026-02-01",
         "abstract": "To enhance energy efficiency and occupant satisfaction, modern buildings have collected rich streams of operational and sensor data. Semantic models for buildings, such as the Brick schema expressed in the Resource Description Framework (RDF) and Web Ontology Language (OWL), have standardized the representation of devices, points, and systems. However, non-expert users still faced barriers to accessing such data, because effective use required proficiency in the SPARQL Protocol and RDF Query Language (SPARQL) and navigation of thousands of interconnected nodes and relations. This paper presents BuildingGPT2, a framework that combined large language model fine-tuning, vector-graph retrieval-augmented generation, and chain-of-thought prompting to enable natural-language querying of Brick-based models. The framework was trained on semantic models from 40 real buildings and …",
         "tags": [],
         "citations": 0,
