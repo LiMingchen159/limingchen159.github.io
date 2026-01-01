@@ -1,7 +1,7 @@
 {
     "has_new_papers": true,
     "new_paper_titles": [
-        "Enhancing LLM-based building data query with chain-of-thought, retrieval-augmented generation, and fine-tuning"
+        "Developing an Automatic Approach to Generate Brick Model from Building Information Modelling"
     ],
     "has_citation_updates": true
 }
