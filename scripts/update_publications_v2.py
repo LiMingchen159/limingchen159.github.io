@@ -15,6 +15,7 @@ AUTHOR_ID = 'xpVXHpcAAAAJ'
 PUBLICATIONS_FILE = 'src/data/publications.json'
 NEWS_FILE = 'src/data/news.json'
 MY_NAME_VARIANTS = ["Mingchen Li", "M Li", "M. Li", "Ming-Chen Li"]
+BLACKLIST_VENUES = ["SSRN"]
 SERPAPI_KEY = os.getenv("SERPAPI_KEY")
 
 # Initialize OpenAI Client
@@ -258,6 +259,12 @@ def update_publications():
             venue = pub['bib'].get('venue', pub['bib'].get('journal', 'Unknown Venue'))
         
         pub_id = generate_id(title, year)
+        
+        # --- BLACKLIST CHECK ---
+        if any(b.lower() in venue.lower() for b in BLACKLIST_VENUES):
+            print(f"Skipping blacklisted venue: {title} ({venue})")
+            continue
+
         print(f"Processing: {title} (ID: {pub_id})")
 
         # --- OPTIMIZATION LOGIC ---

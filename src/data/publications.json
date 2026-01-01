@@ -128,29 +128,6 @@
         "date": "2025-09-16"
     },
     {
-        "id": "developing-an-automatic-approach-to-generate-2025",
-        "title": "Developing an Automatic Approach to Generate Brick Model from Building Information Modelling",
-        "authors": [
-            "Mingchen Li",
-            "Zhe Wang",
-            "Gabe Fierro",
-            "Chi Hou Cecil Man",
-            "Pok Man Patrick So",
-            "Kin Fung Calvin Leung"
-        ],
-        "venue": "Available at SSRN 4759342",
-        "year": 2025,
-        "abstract": "In the AECO (Architecture, Engineering, Construction, and Operations) sector, addressing information silos for efficient building operation and maintenance is crucial. The Graph-based BIM (Building Information Modeling) supports information sharing and digital twin implementation but struggles to integrate operational data. The Brick ontology overcomes this by standardizing metadata for building assets and their relationships. However, errors in human-generated BIM models hinder widespread application. This paper introduces a novel BIM-to-Brick methodology that corrects IFC (Industry Foundation Classes) models, enabling the creation of high-quality Brick models from imperfect BIM ones. This method facilitates end-to-end digital twin creation with operational data integration, significantly reducing the effort by managing real-world BIM inaccuracies. Our case study confirms the method's effectiveness in generating compliant Brick models, showcasing its potential to improve information reusability and reduce information silos in construction.",
-        "tags": [],
-        "citations": 0,
-        "featured": true,
-        "author_status": "first",
-        "links": {
-            "pdf": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4759342"
-        },
-        "date": "2025-08-22"
-    },
-    {
         "id": "a-multi-year-campus-level-smart-2025",
         "title": "A multi-year campus-level smart meter database (vol 11, 1284, 2024)",
         "authors": [
