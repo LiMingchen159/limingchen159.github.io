@@ -1,7 +1,5 @@
 {
-    "has_new_papers": true,
-    "new_paper_titles": [
-        "Enhancing LLM-based building data query with chain-of-thought, retrieval-augmented generation, and fine-tuning"
-    ],
-    "has_citation_updates": true
+    "has_new_papers": false,
+    "new_paper_titles": [],
+    "has_citation_updates": false
 }

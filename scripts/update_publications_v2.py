@@ -74,25 +74,42 @@ def analyze_author_role(authors):
 
 def generate_yearly_summary(year, papers, authors_stats):
     """
-    Generate a yearly summary using AI.
+    Generate a yearly summary using AI or robust fallback.
     """
-    if not client:
-        return f"In {year}, I published {len(papers)} papers.", f"Research covered various topics. Collaborated with {', '.join(list(authors_stats.keys())[:3])} and others."
-
     paper_titles = [p['title'] for p in papers]
-    co_authors = list(authors_stats.keys())
+    # Get top 3 authors
+    top_authors = list(authors_stats.keys())[:3]
+    # Get top venues
+    venues = list(set(p['venue'] for p in papers if p['venue']))
+    top_venues = venues[:3]  # Just take first 3 unique ones
+
+    # Construct robust fallback text
+    fallback_title = f"Research Summary {year}"
+    fallback_desc = f"Published {len(papers)} papers in {year}"
+    if venues:
+        fallback_desc += f" in venues such as {', '.join(top_venues)}."
+    else:
+        fallback_desc += "."
     
+    if top_authors:
+        fallback_desc += f" Collaborated with {', '.join(top_authors)} and others."
+
+    if not client:
+        return fallback_title, fallback_desc
+
     prompt = f"""
-    Write a short, engaging yearly research summary for my personal website news section.
+    Write a short, engaging yearly research summary for my personal website news section in the third person (but warm tone) or first person professional.
     
     Year: {year}
     Number of Publications: {len(papers)}
     Paper Titles: {', '.join(paper_titles)}
-    Co-authors: {', '.join(co_authors)}
+    Key Venues: {', '.join(top_venues)}
+    Key Collaborators: {', '.join(list(authors_stats.keys())[:5])}
     
     Requirements:
-    1. Title: "Yearly Research Summary: [Year]" or something similar but catchy.
-    2. Description: 2-3 sentences summarizing the key research themes of the year and explicitly thanking key collaborators.
+    1. Title: "Yearly Research Summary: [Year]" or something similar.
+    2. Description: 2-3 sentences summarizing the key research themes.
+    3. MANDATORY: Explicitly mention and thank key collaborators (e.g., "Collaborated closely with...", "Special thanks to...").
     
     Output format: JSON with keys 'title' and 'description'.
     """
@@ -107,7 +124,7 @@ def generate_yearly_summary(year, papers, authors_stats):
         return content.get('title'), content.get('description')
     except Exception as e:
         print(f"AI Generation failed: {e}")
-        return f"Research Summary {year}", f"Published {len(papers)} papers in {year}."
+        return fallback_title, fallback_desc
 
 def fetch_publications_serpapi(author_id, api_key):
     """
@@ -330,6 +347,8 @@ def update_publications():
 
     for year, papers in papers_by_year.items():
         # 1. Timing Check: Skip current year if not yet Dec 31
+        if year > current_date.year:
+            continue
         if year == current_date.year and current_date < datetime(year, 12, 31).date():
             continue
 
