@@ -75,7 +75,7 @@
         "year": 2025,
         "abstract": "Semantic web technologies offer a promising avenue for integrating heterogeneous building data across the entire Architecture, Engineering, Construction, and Operation (AECO) lifecycle. Yet querying such ontology-based data remains challenging, as it typically demands expertise in formal query languages like SPARQL Protocol and RDF Query Language (SPARQL). To address this, we present BuildingGPT, a novel framework that harnesses Large Language Models (LLMs) and a vector-graph retrieval-augmented generation (VG-RAG) pipeline. This approach empowers users to intuitively query building data grounded in semantic ontologies (e.g., the Brick Schema) using natural language. Evaluations on synthetic question types derived from 45 Brick Schema-based real building models—covering four complexities and six question types (18,555 samples)—demonstrate that VG-RAG outperforms baselines by …",
         "tags": [],
-        "citations": 3,
+        "citations": 4,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -251,7 +251,7 @@
         "year": 2024,
         "abstract": "Recent advanced architectural algorithms, such as real-time optimization control and fault diagnostics, have garnered significant interest for their ability to reduce building energy consumption and improve equipment maintenance efficiency. However, deploying these algorithms in actual buildings often involves significant manual effort and time to align building data points with algorithmic requirements. In response, standardized ontologies like the Brick Schema have been introduced. This ontology streamlines the representation of building topology, equipment, and data points, as well as algorithm inputs, enabling quicker algorithm integration and deployment. Despite these advancements, manually constructing Brick models from scratch remains time-consuming, laborious, and prone to errors, presenting a new challenge in rapid model development. To overcome these issues, some researchers have turned to …",
         "tags": [],
-        "citations": 3,
+        "citations": 4,
         "featured": true,
         "author_status": "first",
         "links": {
