@@ -75,7 +75,7 @@
         "year": 2025,
         "abstract": "Semantic web technologies offer a promising avenue for integrating heterogeneous building data across the entire Architecture, Engineering, Construction, and Operation (AECO) lifecycle. Yet querying such ontology-based data remains challenging, as it typically demands expertise in formal query languages like SPARQL Protocol and RDF Query Language (SPARQL). To address this, we present BuildingGPT, a novel framework that harnesses Large Language Models (LLMs) and a vector-graph retrieval-augmented generation (VG-RAG) pipeline. This approach empowers users to intuitively query building data grounded in semantic ontologies (e.g., the Brick Schema) using natural language. Evaluations on synthetic question types derived from 45 Brick Schema-based real building models—covering four complexities and six question types (18,555 samples)—demonstrate that VG-RAG outperforms baselines by …",
         "tags": [],
-        "citations": 4,
+        "citations": 5,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -98,7 +98,7 @@
         "year": 2025,
         "abstract": "Building Information Modelling (BIM) has wide applications in smart cities, yet many existing buildings lack BIM models due to the time, expertise, and effort required for manual creation. This paper proposed an automated workflow for generating exterior BIM models. The process begins with extracting building contours from Geographic Information Systems (GIS) data for Unmanned Aerial Vehicle (UAV) trajectory planning. UAVs then capture full-scale façade images, which are processed using monocular photogrammetry. Subsequently, MVSBuilding, a transfer-based Multi-view Stereo algorithm, is developed to generate a point cloud, segment it, and extract key structural components. Last, Dynamo is used to reconstruct an exterior BIM model based on the point cloud and component geometry. The resulting BIM is detailed enough to support building energy modeling (BEM) and daylight simulation. This approach …",
         "tags": [],
-        "citations": 0,
+        "citations": 1,
         "featured": false,
         "author_status": "co-first",
         "links": {
