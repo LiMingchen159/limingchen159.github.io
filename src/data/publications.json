@@ -162,7 +162,7 @@
         "year": 2025,
         "abstract": "As the integration and complexity of integrated energy systems (IES) continue to increase, the synergistic optimization of operation strategies and configuration schemes is encountering formidable challenges. This study presents a novel IES planning model that enables hierarchical optimization of operation strategies and configuration schemes, considering hybrid electric and thermal energy storage. In the initial phase, a population intelligence approach is employed to optimize the configuration scheme of the system. Subsequently, in the second stage, mathematical planning methods are utilized to optimize the operation strategy of the system, thereby further enhancing its performance. The case study reveals that the proposed hierarchical configuration and operation optimization model significantly improves the system's independence, energy, environmental, and economic performance compared to multiple …",
         "tags": [],
-        "citations": 21,
+        "citations": 22,
         "featured": false,
         "author_status": "other",
         "links": {
@@ -228,7 +228,7 @@
         "year": 2024,
         "abstract": "With the growing need for precise campus electricity management, understanding load patterns is crucial for improving energy efficiency and optimizing energy use. However, detailed electricity load data for campus buildings and their internal equipment is often lacking, hindering research. This paper introduces an energy consumption monitoring dataset from The Hong Kong University of Science and Technology (HKUST) campus in Hong Kong, comprising data from over 1400 meters across more than 20 buildings and collected over two and a half years. Using the Brick Schema curation strategy, raw data was curated into a research-ready format. This dataset supports various research tasks, including load pattern recognition, fault detection, demand response strategies, and load forecasting.",
         "tags": [],
-        "citations": 4,
+        "citations": 5,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -251,7 +251,7 @@
         "year": 2024,
         "abstract": "Recent advanced architectural algorithms, such as real-time optimization control and fault diagnostics, have garnered significant interest for their ability to reduce building energy consumption and improve equipment maintenance efficiency. However, deploying these algorithms in actual buildings often involves significant manual effort and time to align building data points with algorithmic requirements. In response, standardized ontologies like the Brick Schema have been introduced. This ontology streamlines the representation of building topology, equipment, and data points, as well as algorithm inputs, enabling quicker algorithm integration and deployment. Despite these advancements, manually constructing Brick models from scratch remains time-consuming, laborious, and prone to errors, presenting a new challenge in rapid model development. To overcome these issues, some researchers have turned to …",
         "tags": [],
-        "citations": 4,
+        "citations": 6,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -297,7 +297,7 @@
         "year": 2023,
         "abstract": "Variable Refrigerant Flow (VRF) systems are gradually gaining popularity in small and medium-sized commercial and residential buildings owing to their high part-load performance, flexible control, and ease of installation and maintenance. Developing models of VRF systems to predict their performance are important for model-based control, fault diagnostic and detection. There are VRF models published in existing literatures, however those models were developed and validated in different datasets. As a result, the model accuracy cannot be directly compared. To fill this gap, this paper presents a comprehensive review of the existing VRF models, and summarizes the input/output parameters and mathematical formulas of 16 VRF models from literature (referred to as physics-based model). Next, we validate and compare the model accuracy of existing models using the same dataset. Additionally, we develop data …",
         "tags": [],
-        "citations": 25,
+        "citations": 26,
         "featured": false,
         "author_status": "co-first",
         "links": {
