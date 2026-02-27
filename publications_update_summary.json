@@ -1,5 +1,7 @@
 {
-    "has_new_papers": false,
-    "new_paper_titles": [],
+    "has_new_papers": true,
+    "new_paper_titles": [
+        "AutoLFM: A multi-agent LLM framework for automated building load forecasting"
+    ],
     "has_citation_updates": false
 }
