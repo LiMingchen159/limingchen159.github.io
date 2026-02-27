@@ -34,7 +34,7 @@
         ],
         "venue": "Building Simulation, 1-24, 2026",
         "year": 2026,
-        "date": "",
+        "date": "2026-01-28",
         "abstract": "Large language models (LLMs) exhibit significant potential in automating data-driven building load forecasting (BLF) model development, substantially reducing reliance on human effort and domain expertise. However, direct application of LLMs faces challenges, including the large and indivisible nature of optimization problems, slow optimization, error-prone code generation, and underutilization of LLM reasoning capabilities. This study introduces AutoLFM, a novel multi-agent framework leveraging LLMs to automate the end-to-end BLF model development workflow. AutoLFM decomposes the complex modeling process using a two-stage optimization strategy, with specialized LLM agents (Retriever, Reasoner, Coder, and Validator) performing distinct tasks. Key mechanisms include dynamic knowledge retrieval for prompt enhancement, data-adaptive search space generation by the Reasoner, and verification …",
         "tags": [],
         "citations": 0,
