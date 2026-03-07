@@ -341,7 +341,7 @@
         "year": 2023,
         "abstract": "This study is the first to conduct a global sensitivity analysis to identify the crucial variables that have an impact on the energy consumption of substations. The peak cooling and heating energy consumption, as well as the annual cooling and heating energy consumption of a substation in Shandong, are all simulated basing the Monte Carlo method. The simulation outputs are discussed by uncertainty analysis to obtain more accurate energy consumption thresholds. Subsequently, the treed Gaussian process and the standardized rank regression coefficient are used to perform a global sensitivity analysis of the simulation outputs. The results of the two global sensitivity analyses are practically the same, demonstrating that robustness can be ensured by simultaneously using two methods based on different theories. In addition, this study provides an efficient method for the energy-saving retrofitting of the existing …",
         "tags": [],
-        "citations": 8,
+        "citations": 9,
         "featured": false,
         "author_status": "corresponding",
         "links": {
