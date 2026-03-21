@@ -79,7 +79,7 @@
         "year": 2025,
         "abstract": "Building operations account for about 30 % of global final energy use, underscoring the need for intelligent, data-driven energy management. Modern building automation systems generate vast volumes of real-time time-series data from heterogeneous sources, yet non-technical users often face high entry barriers due to fragmented metadata, inconsistent APIs, and complex query languages. To address these challenges, we present PV-GPT, an agent framework that leverages large language models (LLMs) and the Brick ontology to enable natural language querying of building energy data. By integrating structured prompting, modular primitive functions, and a closed-loop retrieval–generation–execution architecture, PV-GPT translates user queries into accurate, executable code across semantic (SPARQL), API, and time-series databases. The system is evaluated using a real-world dataset collected from 60 …",
         "tags": [],
-        "citations": 0,
+        "citations": 1,
         "featured": false,
         "author_status": "other",
         "links": {
@@ -341,7 +341,7 @@
         "year": 2023,
         "abstract": "This study is the first to conduct a global sensitivity analysis to identify the crucial variables that have an impact on the energy consumption of substations. The peak cooling and heating energy consumption, as well as the annual cooling and heating energy consumption of a substation in Shandong, are all simulated basing the Monte Carlo method. The simulation outputs are discussed by uncertainty analysis to obtain more accurate energy consumption thresholds. Subsequently, the treed Gaussian process and the standardized rank regression coefficient are used to perform a global sensitivity analysis of the simulation outputs. The results of the two global sensitivity analyses are practically the same, demonstrating that robustness can be ensured by simultaneously using two methods based on different theories. In addition, this study provides an efficient method for the energy-saving retrofitting of the existing …",
         "tags": [],
-        "citations": 9,
+        "citations": 10,
         "featured": false,
         "author_status": "corresponding",
         "links": {
