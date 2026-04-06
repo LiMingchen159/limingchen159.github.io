@@ -121,7 +121,7 @@
         "year": 2025,
         "abstract": "Building Information Modelling (BIM) has wide applications in smart cities, yet many existing buildings lack BIM models due to the time, expertise, and effort required for manual creation. This paper proposed an automated workflow for generating exterior BIM models. The process begins with extracting building contours from Geographic Information Systems (GIS) data for Unmanned Aerial Vehicle (UAV) trajectory planning. UAVs then capture full-scale façade images, which are processed using monocular photogrammetry. Subsequently, MVSBuilding, a transfer-based Multi-view Stereo algorithm, is developed to generate a point cloud, segment it, and extract key structural components. Last, Dynamo is used to reconstruct an exterior BIM model based on the point cloud and component geometry. The resulting BIM is detailed enough to support building energy modeling (BEM) and daylight simulation. This approach …",
         "tags": [],
-        "citations": 2,
+        "citations": 3,
         "featured": false,
         "author_status": "co-first",
         "links": {
@@ -142,7 +142,7 @@
         "year": 2025,
         "abstract": "Developing an efficient and effective control system is critical to enhance built environment quality, to reduce building energy consumption and to achieve the carbon neutrality goal. However, this process is expertise demanding, time consuming, and error-prone, particularly for large-scale buildings with complicated building energy systems. To address this challenge, this study proposes AutoControl, an end-to-end fully automated workflow based on Large Language Models (LLMs). AutoControl incorporates two LLM-based agents that utilize Brick models as inputs to automatically design and generate Proportional-Integral (PI) controller codes. The first LLM agent, a semantic interpreter, extracts and translates configuration details from the Brick model into a comprehensive description of the building energy system and related control specifications. The second LLM agent, a control expert agent, generates the PI …",
         "tags": [],
-        "citations": 2,
+        "citations": 3,
         "featured": false,
         "author_status": "co-first",
         "links": {
