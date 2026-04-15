@@ -185,7 +185,7 @@
         "year": 2025,
         "abstract": "As the integration and complexity of integrated energy systems (IES) continue to increase, the synergistic optimization of operation strategies and configuration schemes is encountering formidable challenges. This study presents a novel IES planning model that enables hierarchical optimization of operation strategies and configuration schemes, considering hybrid electric and thermal energy storage. In the initial phase, a population intelligence approach is employed to optimize the configuration scheme of the system. Subsequently, in the second stage, mathematical planning methods are utilized to optimize the operation strategy of the system, thereby further enhancing its performance. The case study reveals that the proposed hierarchical configuration and operation optimization model significantly improves the system's independence, energy, environmental, and economic performance compared to multiple …",
         "tags": [],
-        "citations": 27,
+        "citations": 28,
         "featured": false,
         "author_status": "other",
         "links": {
