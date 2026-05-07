@@ -274,7 +274,7 @@
         "year": 2024,
         "abstract": "Recent advanced architectural algorithms, such as real-time optimization control and fault diagnostics, have garnered significant interest for their ability to reduce building energy consumption and improve equipment maintenance efficiency. However, deploying these algorithms in actual buildings often involves significant manual effort and time to align building data points with algorithmic requirements. In response, standardized ontologies like the Brick Schema have been introduced. This ontology streamlines the representation of building topology, equipment, and data points, as well as algorithm inputs, enabling quicker algorithm integration and deployment. Despite these advancements, manually constructing Brick models from scratch remains time-consuming, laborious, and prone to errors, presenting a new challenge in rapid model development. To overcome these issues, some researchers have turned to …",
         "tags": [],
-        "citations": 6,
+        "citations": 7,
         "featured": true,
         "author_status": "first",
         "links": {
