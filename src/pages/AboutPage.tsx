@@ -96,7 +96,7 @@ export const AboutPage = ({ isDark }: AboutPageProps) => {
                                 {profile.education.map((edu, idx) => (
                                     <motion.div key={idx} variants={itemVariants} className="relative pl-6 border-l border-slate-700/50 group">
                                         <div className={`absolute -left-1.5 top-1.5 h-3 w-3 rounded-full border-2 transition-all duration-300 group-hover:scale-125 ${isDark ? 'border-slate-950 bg-teal-400' : 'border-slate-50 bg-teal-600'}`} />
-                                        <div className={`text-sm font-medium ${themeClasses.accent}`}>{edu.dateStart} - {edu.dateEnd}</div>
+                                        <div className={`text-sm font-medium ${themeClasses.accent}`}>{edu.dateStart} - {edu.dateEnd || 'Present'}</div>
                                         <div className={`font-semibold ${themeClasses.textHead}`}>{edu.institution}</div>
                                         <div className={`text-sm ${themeClasses.textSub}`}>{edu.area}</div>
                                         <div className={`mt-2 text-sm ${themeClasses.textMain}`}>{edu.summary}</div>
@@ -114,8 +114,14 @@ export const AboutPage = ({ isDark }: AboutPageProps) => {
                                 {profile.work.map((job, idx) => (
                                     <motion.div key={idx} variants={itemVariants} className="relative pl-6 border-l border-slate-700/50 group">
                                         <div className={`absolute -left-1.5 top-1.5 h-3 w-3 rounded-full border-2 transition-all duration-300 group-hover:scale-125 ${isDark ? 'border-slate-950 bg-blue-400' : 'border-slate-50 bg-blue-600'}`} />
-                                        <div className={`text-sm font-medium ${themeClasses.accent}`}>{job.dateStart} - {job.dateEnd}</div>
-                                        <div className={`font-semibold ${themeClasses.textHead}`}>{job.company}</div>
+                                        <div className={`text-sm font-medium ${themeClasses.accent}`}>{job.dateStart} - {job.dateEnd || 'Present'}</div>
+                                        <div className={`font-semibold ${themeClasses.textHead}`}>
+                                            {job.companyUrl ? (
+                                                <a href={job.companyUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                                                    {job.company}
+                                                </a>
+                                            ) : job.company}
+                                        </div>
                                         <div className={`text-sm ${themeClasses.textSub}`}>{job.position}</div>
                                         <div className={`mt-2 text-sm ${themeClasses.textMain}`}>{job.summary}</div>
                                     </motion.div>

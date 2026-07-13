@@ -45,8 +45,8 @@ export type { NewsItem };
 export const profile = {
     name: "Mingchen Li",
     nameCN: "李铭晨",
-    role: "PHD Student",
-    bio: "Mingchen Li is a PhD student in Civil Engineering at Hong Kong University of Science and Technology (HKUST). He research interests include Large Language Model, Semantic Model, Building Performance Optimization and Machine Learning. He is now a student of Prof. Wang and works on semantic modeling of air conditioning systems.",
+    role: "Postdoctoral Fellow",
+    bio: "Mingchen Li is a Postdoctoral Fellow in Civil Engineering at Hong Kong University of Science and Technology (HKUST). His research interests include Large Language Models, Semantic Models, Building Performance Optimization, and Machine Learning. He works with Prof. Wang on semantic modeling of HVAC systems.",
     avatar: "/avatar.png",
     email: "mingchen.li@connect.ust.hk",
     github: "https://github.com/LiMingchen159",
@@ -88,6 +88,22 @@ I'm particularly interested in collaborating on projects involving Smart Buildin
     ] as Education[],
 
     work: [
+        {
+            position: "Postdoctoral Fellow",
+            company: "Hong Kong University of Science and Technology",
+            companyUrl: "https://hkust.edu.hk/",
+            dateStart: "2026-02-01",
+            dateEnd: "",
+            summary: "Research on semantic modeling, large language models, and intelligent HVAC systems."
+        },
+        {
+            position: "Visiting Scholar",
+            company: "University of California, Berkeley",
+            companyUrl: "https://www.berkeley.edu/",
+            dateStart: "2025-08-04",
+            dateEnd: "2026-01-31",
+            summary: "Visiting scholar appointment focused on intelligent building technologies."
+        },
         {
             position: "Python development engineer",
             company: "Beijing Glory PKPM Technology Co.,Ltd.",

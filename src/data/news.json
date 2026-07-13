@@ -1,5 +1,13 @@
 [
     {
+        "date": "2026-02-01",
+        "title": "Postdoctoral Fellow at HKUST",
+        "description": "I joined the Hong Kong University of Science and Technology as a Postdoctoral Fellow in Civil Engineering.",
+        "category": "career",
+        "link": "https://hkust.edu.hk/",
+        "related_paper_id": null
+    },
+    {
         "date": "2025-12",
         "title": "Published 9 Papers in 2025",
         "description": "In 2025, the research focused on optimizing integrated energy systems and enhancing the deployment of intelligent building technologies through innovative algorithms and natural language processing. The year was marked by fruitful collaborations with Zhe Wang, Ziqi Hu, Yao Qu, Kin Ming Chui, and Marcus Leung-Shea, whose contributions were invaluable to the success of nine publications in esteemed venues such as SCIENTIFIC DATA and the Journal of Building Engineering. Special thanks to all collaborators for their support and insights, making this year remarkable in advancing our understanding of energy management and building systems.",
@@ -26,7 +34,7 @@
     {
         "date": "2025-08-04",
         "title": "Visiting Scholar at UC Berkeley",
-        "description": "I will be joining the University of California, Berkeley as a Visiting Scholar.",
+        "description": "I was a Visiting Scholar at the University of California, Berkeley from August 4, 2025 to January 31, 2026.",
         "category": "career",
         "link": null,
         "related_paper_id": null
