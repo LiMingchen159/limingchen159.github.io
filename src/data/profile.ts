@@ -68,7 +68,7 @@ I'm particularly interested in collaborating on projects involving Smart Buildin
             area: "PhD | Civil Engineering",
             institution: "Hong Kong University of Science and Technology",
             dateStart: "2023-09-01",
-            dateEnd: "",
+            dateEnd: "2026-07-15",
             summary: "BuildingGPT, a Large Language Model for Building metadata."
         },
         {
@@ -92,7 +92,7 @@ I'm particularly interested in collaborating on projects involving Smart Buildin
             position: "Postdoctoral Fellow",
             company: "Hong Kong University of Science and Technology",
             companyUrl: "https://hkust.edu.hk/",
-            dateStart: "2026-02-01",
+            dateStart: "2026-07-15",
             dateEnd: "",
             summary: "Research on semantic modeling, large language models, and intelligent HVAC systems."
         },
