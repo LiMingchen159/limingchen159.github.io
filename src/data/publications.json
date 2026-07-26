@@ -229,7 +229,7 @@
         "year": 2024,
         "abstract": "Building Performance Optimization (BPO) plays a pivotal role in enhancing building performance, guaranteeing comfort while reducing resource consumption. Existing performance-driven generative design is computational demanding and difficult to be generalized to other similar buildings with difficult to be generalized to other building types or climate conditions. To fill this gap, this paper introduces a novel framework, which integrates multitask learning (MTL), code compliance check, and multi-objective optimization through NSGA-III algorithm. This framework is able to identify Paratoo Optimal design solutions, which comply with building codes, at low computation costs. The framework begins with selecting key design variables that are critical to building energy, comfort performance and life cycle cost. It then employs MTL to enhance the model's accuracy while reducing computational costs. Next, we designed a …",
         "tags": [],
-        "citations": 16,
+        "citations": 17,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -251,7 +251,7 @@
         "year": 2024,
         "abstract": "With the growing need for precise campus electricity management, understanding load patterns is crucial for improving energy efficiency and optimizing energy use. However, detailed electricity load data for campus buildings and their internal equipment is often lacking, hindering research. This paper introduces an energy consumption monitoring dataset from The Hong Kong University of Science and Technology (HKUST) campus in Hong Kong, comprising data from over 1400 meters across more than 20 buildings and collected over two and a half years. Using the Brick Schema curation strategy, raw data was curated into a research-ready format. This dataset supports various research tasks, including load pattern recognition, fault detection, demand response strategies, and load forecasting.",
         "tags": [],
-        "citations": 7,
+        "citations": 8,
         "featured": true,
         "author_status": "first",
         "links": {
