@@ -14,7 +14,7 @@
         "date": "2026-02-01",
         "abstract": "To enhance energy efficiency and occupant satisfaction, modern buildings have collected rich streams of operational and sensor data. Semantic models for buildings, such as the Brick schema expressed in the Resource Description Framework (RDF) and Web Ontology Language (OWL), have standardized the representation of devices, points, and systems. However, non-expert users still faced barriers to accessing such data, because effective use required proficiency in the SPARQL Protocol and RDF Query Language (SPARQL) and navigation of thousands of interconnected nodes and relations. This paper presents BuildingGPT2, a framework that combined large language model fine-tuning, vector-graph retrieval-augmented generation, and chain-of-thought prompting to enable natural-language querying of Brick-based models. The framework was trained on semantic models from 40 real buildings and …",
         "tags": [],
-        "citations": 6,
+        "citations": 7,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -44,6 +44,29 @@
             "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:roLk4NBRz8UC"
         },
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:roLk4NBRz8UC"
+    },
+    {
+        "id": "autocontrol-mpc-an-automated-model-predictive-2026",
+        "title": "AutoControl-MPC: an automated model predictive control development framework based on large language models for HVAC systems",
+        "authors": [
+            "Ziqi Hu",
+            "Mingchen Li",
+            "Xu Han",
+            "Lunlong Li",
+            "Zhe Wang"
+        ],
+        "venue": "Energy and Buildings, 118025, 2026",
+        "year": 2026,
+        "date": "",
+        "abstract": "Abstract Heating, Ventilation, and Air Conditioning (HVAC) systems are responsible for a significant portion of global energy consumption, making their efficient management crucial for reducing energy use and carbon emissions, as well as maintaining indoor comfort. Model Predictive Control (MPC) is widely recognized as an effective approach for HVAC control due to its superior ability to handle the dynamics and uncertainty of building energy systems. However, traditional development of an MPC controller is labor-intensive and requires specialized domain knowledge. Different building environments require customized model identification and code implementation, which limits its wide adoption at scale in practice. To address this challenge, this paper proposes AutoControl-MPC, an end-to-end automated workflow for MPC development using large language models (LLMs). At each stage of the MPC …",
+        "tags": [],
+        "citations": 0,
+        "featured": false,
+        "author_status": "other",
+        "links": {
+            "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:UebtZRa9Y70C"
+        },
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:UebtZRa9Y70C"
     },
     {
         "id": "applying-semantic-model-for-easy-and-2025",
@@ -98,7 +121,7 @@
         "year": 2025,
         "abstract": "Semantic web technologies offer a promising avenue for integrating heterogeneous building data across the entire Architecture, Engineering, Construction, and Operation (AECO) lifecycle. Yet querying such ontology-based data remains challenging, as it typically demands expertise in formal query languages like SPARQL Protocol and RDF Query Language (SPARQL). To address this, we present BuildingGPT, a novel framework that harnesses Large Language Models (LLMs) and a vector-graph retrieval-augmented generation (VG-RAG) pipeline. This approach empowers users to intuitively query building data grounded in semantic ontologies (e.g., the Brick Schema) using natural language. Evaluations on synthetic question types derived from 45 Brick Schema-based real building models—covering four complexities and six question types (18,555 samples)—demonstrate that VG-RAG outperforms baselines by …",
         "tags": [],
-        "citations": 21,
+        "citations": 24,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -142,7 +165,7 @@
         "year": 2025,
         "abstract": "Developing an efficient and effective control system is critical to enhance built environment quality, to reduce building energy consumption and to achieve the carbon neutrality goal. However, this process is expertise demanding, time consuming, and error-prone, particularly for large-scale buildings with complicated building energy systems. To address this challenge, this study proposes AutoControl, an end-to-end fully automated workflow based on Large Language Models (LLMs). AutoControl incorporates two LLM-based agents that utilize Brick models as inputs to automatically design and generate Proportional-Integral (PI) controller codes. The first LLM agent, a semantic interpreter, extracts and translates configuration details from the Brick model into a comprehensive description of the building energy system and related control specifications. The second LLM agent, a control expert agent, generates the PI …",
         "tags": [],
-        "citations": 6,
+        "citations": 7,
         "featured": false,
         "author_status": "co-first",
         "links": {
