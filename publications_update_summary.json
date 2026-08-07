@@ -1,7 +1,7 @@
 {
     "has_new_papers": true,
     "new_paper_titles": [
-        "AutoLFM: A multi-agent LLM framework for automated building load forecasting"
+        "AutoControl-MPC: an automated model predictive control development framework based on large language models for HVAC systems"
     ],
-    "has_citation_updates": false
+    "has_citation_updates": true
 }
