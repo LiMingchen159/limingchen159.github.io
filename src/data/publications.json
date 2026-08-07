@@ -57,7 +57,7 @@
         ],
         "venue": "Energy and Buildings, 118025, 2026",
         "year": 2026,
-        "date": "",
+        "date": "2026-07-29",
         "abstract": "Abstract Heating, Ventilation, and Air Conditioning (HVAC) systems are responsible for a significant portion of global energy consumption, making their efficient management crucial for reducing energy use and carbon emissions, as well as maintaining indoor comfort. Model Predictive Control (MPC) is widely recognized as an effective approach for HVAC control due to its superior ability to handle the dynamics and uncertainty of building energy systems. However, traditional development of an MPC controller is labor-intensive and requires specialized domain knowledge. Different building environments require customized model identification and code implementation, which limits its wide adoption at scale in practice. To address this challenge, this paper proposes AutoControl-MPC, an end-to-end automated workflow for MPC development using large language models (LLMs). At each stage of the MPC …",
         "tags": [],
         "citations": 0,
