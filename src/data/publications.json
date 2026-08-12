@@ -102,7 +102,7 @@
         "year": 2025,
         "abstract": "Building operations account for about 30 % of global final energy use, underscoring the need for intelligent, data-driven energy management. Modern building automation systems generate vast volumes of real-time time-series data from heterogeneous sources, yet non-technical users often face high entry barriers due to fragmented metadata, inconsistent APIs, and complex query languages. To address these challenges, we present PV-GPT, an agent framework that leverages large language models (LLMs) and the Brick ontology to enable natural language querying of building energy data. By integrating structured prompting, modular primitive functions, and a closed-loop retrieval–generation–execution architecture, PV-GPT translates user queries into accurate, executable code across semantic (SPARQL), API, and time-series databases. The system is evaluated using a real-world dataset collected from 60 …",
         "tags": [],
-        "citations": 2,
+        "citations": 3,
         "featured": false,
         "author_status": "other",
         "links": {
