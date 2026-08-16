@@ -121,7 +121,7 @@
         "year": 2025,
         "abstract": "Semantic web technologies offer a promising avenue for integrating heterogeneous building data across the entire Architecture, Engineering, Construction, and Operation (AECO) lifecycle. Yet querying such ontology-based data remains challenging, as it typically demands expertise in formal query languages like SPARQL Protocol and RDF Query Language (SPARQL). To address this, we present BuildingGPT, a novel framework that harnesses Large Language Models (LLMs) and a vector-graph retrieval-augmented generation (VG-RAG) pipeline. This approach empowers users to intuitively query building data grounded in semantic ontologies (e.g., the Brick Schema) using natural language. Evaluations on synthetic question types derived from 45 Brick Schema-based real building models—covering four complexities and six question types (18,555 samples)—demonstrate that VG-RAG outperforms baselines by …",
         "tags": [],
-        "citations": 27,
+        "citations": 28,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -274,7 +274,7 @@
         "year": 2024,
         "abstract": "With the growing need for precise campus electricity management, understanding load patterns is crucial for improving energy efficiency and optimizing energy use. However, detailed electricity load data for campus buildings and their internal equipment is often lacking, hindering research. This paper introduces an energy consumption monitoring dataset from The Hong Kong University of Science and Technology (HKUST) campus in Hong Kong, comprising data from over 1400 meters across more than 20 buildings and collected over two and a half years. Using the Brick Schema curation strategy, raw data was curated into a research-ready format. This dataset supports various research tasks, including load pattern recognition, fault detection, demand response strategies, and load forecasting.",
         "tags": [],
-        "citations": 9,
+        "citations": 10,
         "featured": true,
         "author_status": "first",
         "links": {
