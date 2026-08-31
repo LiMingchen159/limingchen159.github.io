@@ -343,7 +343,7 @@
         "year": 2023,
         "abstract": "Variable Refrigerant Flow (VRF) systems are gradually gaining popularity in small and medium-sized commercial and residential buildings owing to their high part-load performance, flexible control, and ease of installation and maintenance. Developing models of VRF systems to predict their performance are important for model-based control, fault diagnostic and detection. There are VRF models published in existing literatures, however those models were developed and validated in different datasets. As a result, the model accuracy cannot be directly compared. To fill this gap, this paper presents a comprehensive review of the existing VRF models, and summarizes the input/output parameters and mathematical formulas of 16 VRF models from literature (referred to as physics-based model). Next, we validate and compare the model accuracy of existing models using the same dataset. Additionally, we develop data …",
         "tags": [],
-        "citations": 29,
+        "citations": 30,
         "featured": false,
         "author_status": "co-first",
         "links": {
