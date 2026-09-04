@@ -208,7 +208,7 @@
         "year": 2025,
         "abstract": "As the integration and complexity of integrated energy systems (IES) continue to increase, the synergistic optimization of operation strategies and configuration schemes is encountering formidable challenges. This study presents a novel IES planning model that enables hierarchical optimization of operation strategies and configuration schemes, considering hybrid electric and thermal energy storage. In the initial phase, a population intelligence approach is employed to optimize the configuration scheme of the system. Subsequently, in the second stage, mathematical planning methods are utilized to optimize the operation strategy of the system, thereby further enhancing its performance. The case study reveals that the proposed hierarchical configuration and operation optimization model significantly improves the system's independence, energy, environmental, and economic performance compared to multiple …",
         "tags": [],
-        "citations": 36,
+        "citations": 38,
         "featured": false,
         "author_status": "other",
         "links": {
@@ -252,7 +252,7 @@
         "year": 2024,
         "abstract": "Building Performance Optimization (BPO) plays a pivotal role in enhancing building performance, guaranteeing comfort while reducing resource consumption. Existing performance-driven generative design is computational demanding and difficult to be generalized to other similar buildings with difficult to be generalized to other building types or climate conditions. To fill this gap, this paper introduces a novel framework, which integrates multitask learning (MTL), code compliance check, and multi-objective optimization through NSGA-III algorithm. This framework is able to identify Paratoo Optimal design solutions, which comply with building codes, at low computation costs. The framework begins with selecting key design variables that are critical to building energy, comfort performance and life cycle cost. It then employs MTL to enhance the model's accuracy while reducing computational costs. Next, we designed a …",
         "tags": [],
-        "citations": 19,
+        "citations": 20,
         "featured": true,
         "author_status": "first",
         "links": {
