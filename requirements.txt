@@ -1,3 +1,5 @@
-scholarly
+scholarly==1.7.11
+# scholarly 1.7.11 imports the bibdatabase module removed in bibtexparser 2.x.
+bibtexparser==1.4.4
 openai
 python-dotenv
