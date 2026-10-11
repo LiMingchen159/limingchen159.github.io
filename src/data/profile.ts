@@ -59,7 +59,7 @@ export const profile = {
     researchBio: `My research focuses on developing BuildingAgent, an intelligent system that leverages Large Language Models and Semantic Model to optimize HVAC systems. By using Brick Schema and SPARQL to create Knowledge Graphs from building data, BuildingAgent enables natural language interaction with complex building systems for automated fault detection and energy optimization.
 
 I'm particularly interested in collaborating on projects involving Smart Buildings, Digital Twins, and Machine Learning applications in the built environment. Please reach out via email or WeChat 😃`,
-    buildingAgentUrl: "https://github.com/LiMingchen159/BuildingGPT",
+    buildingAgentUrl: "https://limingchen.world/buildinggpt-web/",
 
     news: news,
 
