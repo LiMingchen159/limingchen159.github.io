@@ -14,7 +14,7 @@
         "date": "2026-07-29",
         "abstract": "Abstract Heating, Ventilation, and Air Conditioning (HVAC) systems are responsible for a significant portion of global energy consumption, making their efficient management crucial for reducing energy use and carbon emissions, as well as maintaining indoor comfort. Model Predictive Control (MPC) is widely recognized as an effective approach for HVAC control due to its superior ability to handle the dynamics and uncertainty of building energy systems. However, traditional development of an MPC controller is labor-intensive and requires specialized domain knowledge. Different building environments require customized model identification and code implementation, which limits its wide adoption at scale in practice. To address this challenge, this paper proposes AutoControl-MPC, an end-to-end automated workflow for MPC development using large language models (LLMs). At each stage of the MPC …",
         "tags": [],
-        "citations": 0,
+        "citations": 1,
         "featured": false,
         "author_status": "other",
         "links": {
@@ -37,7 +37,7 @@
         "date": "2026-02-01",
         "abstract": "To enhance energy efficiency and occupant satisfaction, modern buildings have collected rich streams of operational and sensor data. Semantic models for buildings, such as the Brick schema expressed in the Resource Description Framework (RDF) and Web Ontology Language (OWL), have standardized the representation of devices, points, and systems. However, non-expert users still faced barriers to accessing such data, because effective use required proficiency in the SPARQL Protocol and RDF Query Language (SPARQL) and navigation of thousands of interconnected nodes and relations. This paper presents BuildingGPT2, a framework that combined large language model fine-tuning, vector-graph retrieval-augmented generation, and chain-of-thought prompting to enable natural-language querying of Brick-based models. The framework was trained on semantic models from 40 real buildings and …",
         "tags": [],
-        "citations": 16,
+        "citations": 17,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -102,7 +102,7 @@
         "year": 2025,
         "abstract": "Building operations account for about 30 % of global final energy use, underscoring the need for intelligent, data-driven energy management. Modern building automation systems generate vast volumes of real-time time-series data from heterogeneous sources, yet non-technical users often face high entry barriers due to fragmented metadata, inconsistent APIs, and complex query languages. To address these challenges, we present PV-GPT, an agent framework that leverages large language models (LLMs) and the Brick ontology to enable natural language querying of building energy data. By integrating structured prompting, modular primitive functions, and a closed-loop retrieval–generation–execution architecture, PV-GPT translates user queries into accurate, executable code across semantic (SPARQL), API, and time-series databases. The system is evaluated using a real-world dataset collected from 60 …",
         "tags": [],
-        "citations": 4,
+        "citations": 5,
         "featured": false,
         "author_status": "other",
         "links": {
@@ -121,7 +121,7 @@
         "year": 2025,
         "abstract": "Semantic web technologies offer a promising avenue for integrating heterogeneous building data across the entire Architecture, Engineering, Construction, and Operation (AECO) lifecycle. Yet querying such ontology-based data remains challenging, as it typically demands expertise in formal query languages like SPARQL Protocol and RDF Query Language (SPARQL). To address this, we present BuildingGPT, a novel framework that harnesses Large Language Models (LLMs) and a vector-graph retrieval-augmented generation (VG-RAG) pipeline. This approach empowers users to intuitively query building data grounded in semantic ontologies (e.g., the Brick Schema) using natural language. Evaluations on synthetic question types derived from 45 Brick Schema-based real building models—covering four complexities and six question types (18,555 samples)—demonstrate that VG-RAG outperforms baselines by …",
         "tags": [],
-        "citations": 39,
+        "citations": 40,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -252,7 +252,7 @@
         "year": 2024,
         "abstract": "Building Performance Optimization (BPO) plays a pivotal role in enhancing building performance, guaranteeing comfort while reducing resource consumption. Existing performance-driven generative design is computational demanding and difficult to be generalized to other similar buildings with difficult to be generalized to other building types or climate conditions. To fill this gap, this paper introduces a novel framework, which integrates multitask learning (MTL), code compliance check, and multi-objective optimization through NSGA-III algorithm. This framework is able to identify Paratoo Optimal design solutions, which comply with building codes, at low computation costs. The framework begins with selecting key design variables that are critical to building energy, comfort performance and life cycle cost. It then employs MTL to enhance the model's accuracy while reducing computational costs. Next, we designed a …",
         "tags": [],
-        "citations": 21,
+        "citations": 22,
         "featured": true,
         "author_status": "first",
         "links": {
