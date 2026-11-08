@@ -32,7 +32,10 @@ export const publications: Publication[] = (publicationsData as Publication[]).s
     return 0;
 });
 
-export const getFeaturedPublications = () => publications.filter(p => p.featured);
+// Highlight sole first-author papers, with the most cited papers first.
+export const getFeaturedPublications = () => publications
+    .filter(p => p.author_status === 'first')
+    .sort((a, b) => (b.citations ?? 0) - (a.citations ?? 0));
 export const getRecentPublications = () => publications.sort((a, b) => b.year - a.year);
 export const getPublicationsByYear = (year: number) => publications.filter(p => p.year === year);
 export const getPublicationById = (id: string) => publications.find(p => p.id === id);
