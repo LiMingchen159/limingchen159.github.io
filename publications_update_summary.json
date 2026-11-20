@@ -1,7 +1,8 @@
 {
     "has_new_papers": true,
     "new_paper_titles": [
-        "AutoControl-MPC: an automated model predictive control development framework based on large language models for HVAC systems"
+        "A 2.5-year campus-level smart meter database with equipment data for energy analytics",
+        "A transferable retrieval-and-reranking framework for mapping BMS points to building semantic metadata"
     ],
     "has_citation_updates": true
 }
