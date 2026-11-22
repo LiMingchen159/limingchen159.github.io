@@ -37,7 +37,7 @@
         "date": "2026-02-01",
         "abstract": "To enhance energy efficiency and occupant satisfaction, modern buildings have collected rich streams of operational and sensor data. Semantic models for buildings, such as the Brick schema expressed in the Resource Description Framework (RDF) and Web Ontology Language (OWL), have standardized the representation of devices, points, and systems. However, non-expert users still faced barriers to accessing such data, because effective use required proficiency in the SPARQL Protocol and RDF Query Language (SPARQL) and navigation of thousands of interconnected nodes and relations. This paper presents BuildingGPT2, a framework that combined large language model fine-tuning, vector-graph retrieval-augmented generation, and chain-of-thought prompting to enable natural-language querying of Brick-based models. The framework was trained on semantic models from 40 real buildings and …",
         "tags": [],
-        "citations": 22,
+        "citations": 25,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -60,13 +60,36 @@
         "date": "2026-01-28",
         "abstract": "Large language models (LLMs) exhibit significant potential in automating data-driven building load forecasting (BLF) model development, substantially reducing reliance on human effort and domain expertise. However, direct application of LLMs faces challenges, including the large and indivisible nature of optimization problems, slow optimization, error-prone code generation, and underutilization of LLM reasoning capabilities. This study introduces AutoLFM, a novel multi-agent framework leveraging LLMs to automate the end-to-end BLF model development workflow. AutoLFM decomposes the complex modeling process using a two-stage optimization strategy, with specialized LLM agents (Retriever, Reasoner, Coder, and Validator) performing distinct tasks. Key mechanisms include dynamic knowledge retrieval for prompt enhancement, data-adaptive search space generation by the Reasoner, and verification …",
         "tags": [],
-        "citations": 13,
+        "citations": 14,
         "featured": false,
         "author_status": "other",
         "links": {
             "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:roLk4NBRz8UC"
         },
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:roLk4NBRz8UC"
+    },
+    {
+        "id": "a-transferable-retrieval-and-reranking-framework-2026",
+        "title": "A transferable retrieval-and-reranking framework for mapping BMS points to building semantic metadata",
+        "authors": [
+            "Ke Sun",
+            "Mingchen Li",
+            "Jianli Chen",
+            "Xiaodong Cao",
+            "Zhe Wang"
+        ],
+        "venue": "Sustainable Energy Technologies and Assessments 96, 105587, 2026",
+        "year": 2026,
+        "date": "2026-12-01",
+        "abstract": "Modern building energy systems rely on Building Management System (BMS) data for fault detection, control, and energy optimization, yet project-specific point names hinder semantic interoperability across buildings. This study proposes a BMS-to-Brick mapping framework that retrieves plausible Brick classes, reranks them using lexical and semantic evidence, and integrates annual time-series evidence at the candidate level. The semantic branch is trained with non-Mortar supervision, and the evaluation uses 1,448 eligible points from 11 held-out Mortar buildings covering 21 Brick classes, with each point having a valid annual time series and a class supported by both branches. Semantic retrieval and reranking achieve 90.12% accuracy, compared with 44.96% for a LoRA-tuned BGE-M3 direct classifier. Candidate-level fusion achieves 91.64% accuracy and 80.27% Macro-F1, compared with 91.02% and 75.83 …",
+        "tags": [],
+        "citations": 0,
+        "featured": false,
+        "author_status": "other",
+        "links": {
+            "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:0EnyYjriUFMC"
+        },
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:0EnyYjriUFMC"
     },
     {
         "id": "applying-semantic-model-for-easy-and-2025",
@@ -102,7 +125,7 @@
         "year": 2025,
         "abstract": "Building operations account for about 30 % of global final energy use, underscoring the need for intelligent, data-driven energy management. Modern building automation systems generate vast volumes of real-time time-series data from heterogeneous sources, yet non-technical users often face high entry barriers due to fragmented metadata, inconsistent APIs, and complex query languages. To address these challenges, we present PV-GPT, an agent framework that leverages large language models (LLMs) and the Brick ontology to enable natural language querying of building energy data. By integrating structured prompting, modular primitive functions, and a closed-loop retrieval–generation–execution architecture, PV-GPT translates user queries into accurate, executable code across semantic (SPARQL), API, and time-series databases. The system is evaluated using a real-world dataset collected from 60 …",
         "tags": [],
-        "citations": 5,
+        "citations": 6,
         "featured": false,
         "author_status": "other",
         "links": {
@@ -121,7 +144,7 @@
         "year": 2025,
         "abstract": "Semantic web technologies offer a promising avenue for integrating heterogeneous building data across the entire Architecture, Engineering, Construction, and Operation (AECO) lifecycle. Yet querying such ontology-based data remains challenging, as it typically demands expertise in formal query languages like SPARQL Protocol and RDF Query Language (SPARQL). To address this, we present BuildingGPT, a novel framework that harnesses Large Language Models (LLMs) and a vector-graph retrieval-augmented generation (VG-RAG) pipeline. This approach empowers users to intuitively query building data grounded in semantic ontologies (e.g., the Brick Schema) using natural language. Evaluations on synthetic question types derived from 45 Brick Schema-based real building models—covering four complexities and six question types (18,555 samples)—demonstrate that VG-RAG outperforms baselines by …",
         "tags": [],
-        "citations": 45,
+        "citations": 46,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -165,7 +188,7 @@
         "year": 2025,
         "abstract": "Developing an efficient and effective control system is critical to enhance built environment quality, to reduce building energy consumption and to achieve the carbon neutrality goal. However, this process is expertise demanding, time consuming, and error-prone, particularly for large-scale buildings with complicated building energy systems. To address this challenge, this study proposes AutoControl, an end-to-end fully automated workflow based on Large Language Models (LLMs). AutoControl incorporates two LLM-based agents that utilize Brick models as inputs to automatically design and generate Proportional-Integral (PI) controller codes. The first LLM agent, a semantic interpreter, extracts and translates configuration details from the Brick model into a comprehensive description of the building energy system and related control specifications. The second LLM agent, a control expert agent, generates the PI …",
         "tags": [],
-        "citations": 16,
+        "citations": 17,
         "featured": false,
         "author_status": "co-first",
         "links": {
@@ -208,7 +231,7 @@
         "year": 2025,
         "abstract": "As the integration and complexity of integrated energy systems (IES) continue to increase, the synergistic optimization of operation strategies and configuration schemes is encountering formidable challenges. This study presents a novel IES planning model that enables hierarchical optimization of operation strategies and configuration schemes, considering hybrid electric and thermal energy storage. In the initial phase, a population intelligence approach is employed to optimize the configuration scheme of the system. Subsequently, in the second stage, mathematical planning methods are utilized to optimize the operation strategy of the system, thereby further enhancing its performance. The case study reveals that the proposed hierarchical configuration and operation optimization model significantly improves the system's independence, energy, environmental, and economic performance compared to multiple …",
         "tags": [],
-        "citations": 41,
+        "citations": 42,
         "featured": false,
         "author_status": "other",
         "links": {
@@ -252,7 +275,7 @@
         "year": 2024,
         "abstract": "Building Performance Optimization (BPO) plays a pivotal role in enhancing building performance, guaranteeing comfort while reducing resource consumption. Existing performance-driven generative design is computational demanding and difficult to be generalized to other similar buildings with difficult to be generalized to other building types or climate conditions. To fill this gap, this paper introduces a novel framework, which integrates multitask learning (MTL), code compliance check, and multi-objective optimization through NSGA-III algorithm. This framework is able to identify Paratoo Optimal design solutions, which comply with building codes, at low computation costs. The framework begins with selecting key design variables that are critical to building energy, comfort performance and life cycle cost. It then employs MTL to enhance the model's accuracy while reducing computational costs. Next, we designed a …",
         "tags": [],
-        "citations": 25,
+        "citations": 27,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -274,7 +297,7 @@
         "year": 2024,
         "abstract": "With the growing need for precise campus electricity management, understanding load patterns is crucial for improving energy efficiency and optimizing energy use. However, detailed electricity load data for campus buildings and their internal equipment is often lacking, hindering research. This paper introduces an energy consumption monitoring dataset from The Hong Kong University of Science and Technology (HKUST) campus in Hong Kong, comprising data from over 1400 meters across more than 20 buildings and collected over two and a half years. Using the Brick Schema curation strategy, raw data was curated into a research-ready format. This dataset supports various research tasks, including load pattern recognition, fault detection, demand response strategies, and load forecasting.",
         "tags": [],
-        "citations": 13,
+        "citations": 15,
         "featured": true,
         "author_status": "first",
         "links": {
@@ -297,13 +320,36 @@
         "year": 2024,
         "abstract": "Recent advanced architectural algorithms, such as real-time optimization control and fault diagnostics, have garnered significant interest for their ability to reduce building energy consumption and improve equipment maintenance efficiency. However, deploying these algorithms in actual buildings often involves significant manual effort and time to align building data points with algorithmic requirements. In response, standardized ontologies like the Brick Schema have been introduced. This ontology streamlines the representation of building topology, equipment, and data points, as well as algorithm inputs, enabling quicker algorithm integration and deployment. Despite these advancements, manually constructing Brick models from scratch remains time-consuming, laborious, and prone to errors, presenting a new challenge in rapid model development. To overcome these issues, some researchers have turned to …",
         "tags": [],
-        "citations": 10,
+        "citations": 11,
         "featured": true,
         "author_status": "first",
         "links": {
             "pdf": "https://www.sciencedirect.com/science/article/pii/S2352710224022654"
         },
         "date": "2024-11-15"
+    },
+    {
+        "id": "a-2-5-year-campus-level-2024",
+        "title": "A 2.5-year campus-level smart meter database with equipment data for energy analytics",
+        "authors": [
+            "Mingchen Li",
+            "Zhe Wang",
+            "Yao Qu",
+            "Kin Ming Chui",
+            "Marcus Leung-Shea"
+        ],
+        "venue": "Dryad Data Set, 3908, 2024",
+        "year": 2024,
+        "date": "2024-08-01",
+        "abstract": "In response to the increasing necessity for accurate campus electricity management, understanding load patterns is essential for enhancing energy efficiency and optimizing usage. Yet, comprehensive electricity load data for campus buildings and their internal systems is often insufficient, posing challenges for research. This paper presents an energy consumption monitoring dataset from the Hong Kong University of Science and Technology (HKUST) campus, featuring data from over 1,400 meters across more than 20 buildings, collected over two and a half years. Utilizing the Brick Schema curation strategy, raw data was refined into a research-ready format. This dataset facilitates a variety of research applications, including load pattern recognition, fault detection, demand response strategies, and load forecasting.",
+        "tags": [],
+        "citations": 1,
+        "featured": true,
+        "author_status": "first",
+        "links": {
+            "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:hqOjcs7Dif8C"
+        },
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:hqOjcs7Dif8C"
     },
     {
         "id": "based-on-ann-and-many-objective-2023",
