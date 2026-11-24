@@ -1,5 +1,28 @@
 [
     {
+        "id": "a-transferable-retrieval-and-reranking-framework-2026",
+        "title": "A transferable retrieval-and-reranking framework for mapping BMS points to building semantic metadata",
+        "authors": [
+            "Ke Sun",
+            "Mingchen Li",
+            "Jianli Chen",
+            "Xiaodong Cao",
+            "Zhe Wang"
+        ],
+        "venue": "Sustainable Energy Technologies and Assessments 96, 105587, 2026",
+        "year": 2026,
+        "date": "2026-12-01",
+        "abstract": "Modern building energy systems rely on Building Management System (BMS) data for fault detection, control, and energy optimization, yet project-specific point names hinder semantic interoperability across buildings. This study proposes a BMS-to-Brick mapping framework that retrieves plausible Brick classes, reranks them using lexical and semantic evidence, and integrates annual time-series evidence at the candidate level. The semantic branch is trained with non-Mortar supervision, and the evaluation uses 1,448 eligible points from 11 held-out Mortar buildings covering 21 Brick classes, with each point having a valid annual time series and a class supported by both branches. Semantic retrieval and reranking achieve 90.12% accuracy, compared with 44.96% for a LoRA-tuned BGE-M3 direct classifier. Candidate-level fusion achieves 91.64% accuracy and 80.27% Macro-F1, compared with 91.02% and 75.83 …",
+        "tags": [],
+        "citations": 0,
+        "featured": false,
+        "author_status": "other",
+        "links": {
+            "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:0EnyYjriUFMC"
+        },
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:0EnyYjriUFMC"
+    },
+    {
         "id": "autocontrol-mpc-an-automated-model-predictive-2026",
         "title": "AutoControl-MPC: an automated model predictive control development framework based on large language models for HVAC systems",
         "authors": [
@@ -67,29 +90,6 @@
             "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:roLk4NBRz8UC"
         },
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:roLk4NBRz8UC"
-    },
-    {
-        "id": "a-transferable-retrieval-and-reranking-framework-2026",
-        "title": "A transferable retrieval-and-reranking framework for mapping BMS points to building semantic metadata",
-        "authors": [
-            "Ke Sun",
-            "Mingchen Li",
-            "Jianli Chen",
-            "Xiaodong Cao",
-            "Zhe Wang"
-        ],
-        "venue": "Sustainable Energy Technologies and Assessments 96, 105587, 2026",
-        "year": 2026,
-        "date": "2026-12-01",
-        "abstract": "Modern building energy systems rely on Building Management System (BMS) data for fault detection, control, and energy optimization, yet project-specific point names hinder semantic interoperability across buildings. This study proposes a BMS-to-Brick mapping framework that retrieves plausible Brick classes, reranks them using lexical and semantic evidence, and integrates annual time-series evidence at the candidate level. The semantic branch is trained with non-Mortar supervision, and the evaluation uses 1,448 eligible points from 11 held-out Mortar buildings covering 21 Brick classes, with each point having a valid annual time series and a class supported by both branches. Semantic retrieval and reranking achieve 90.12% accuracy, compared with 44.96% for a LoRA-tuned BGE-M3 direct classifier. Candidate-level fusion achieves 91.64% accuracy and 80.27% Macro-F1, compared with 91.02% and 75.83 …",
-        "tags": [],
-        "citations": 0,
-        "featured": false,
-        "author_status": "other",
-        "links": {
-            "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:0EnyYjriUFMC"
-        },
-        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xpVXHpcAAAAJ&pagesize=100&citation_for_view=xpVXHpcAAAAJ:0EnyYjriUFMC"
     },
     {
         "id": "applying-semantic-model-for-easy-and-2025",
@@ -188,7 +188,7 @@
         "year": 2025,
         "abstract": "Developing an efficient and effective control system is critical to enhance built environment quality, to reduce building energy consumption and to achieve the carbon neutrality goal. However, this process is expertise demanding, time consuming, and error-prone, particularly for large-scale buildings with complicated building energy systems. To address this challenge, this study proposes AutoControl, an end-to-end fully automated workflow based on Large Language Models (LLMs). AutoControl incorporates two LLM-based agents that utilize Brick models as inputs to automatically design and generate Proportional-Integral (PI) controller codes. The first LLM agent, a semantic interpreter, extracts and translates configuration details from the Brick model into a comprehensive description of the building energy system and related control specifications. The second LLM agent, a control expert agent, generates the PI …",
         "tags": [],
-        "citations": 17,
+        "citations": 18,
         "featured": false,
         "author_status": "co-first",
         "links": {
@@ -432,7 +432,7 @@
         "year": 2022,
         "abstract": "Optimizing building performance and economic benefits through feedback in building design is a hot topic in current academic research. However, few studies on prefabricated buildings have been undertaken in this field. Meanwhile, the methodology used for achieving optimized solutions is still poor. In this paper, genetic algorithms and correlation analysis are employed and two parametric design methods—i.e., the floor plan generation method and the component selection method—are proposed for the modularity of the prefabricated buildings. Taking a typical high-rise building in Tianjin as an example, correlation analyses are performed on the basis of the two proposed methods to enhance the depth of the optimized finding approach. The outcome of this research demonstrates the feasibility of the proposed numerical approach, which can produce the optimized floor plan and construction set under the local conditions. This also reveals that the shape coefficient and window-to-wall ratio are strongly correlated with the energy performance of a building, which can help architects to pursue optimized design solutions in the schematic design process.",
         "tags": [],
-        "citations": 14,
+        "citations": 15,
         "featured": false,
         "author_status": "corresponding",
         "links": {
